@@ -81,3 +81,14 @@ const LUCKY = { ranks: [11, 26, 38], amount: 'Rp50.000' };
 ```
 
 Ubah angka posisinya sebelum kickoff, lalu commit. Baris posisi tersebut otomatis di-highlight ungu + 🍀 di klasemen.
+
+## Undian 🎡
+
+Halaman spinwheel untuk acara undian live: **`/undian.html`** (tidak ada di menu utama — khusus panitia).
+
+- **Pot 1**: 25 orang ↔ 25 tim unggulan · **Pot 2**: 15 orang ↔ 23 tim hore-hore (8 negara sisa tanpa pemilik).
+- Orang diundi urut sesuai daftar; klik **PUTAR!** → roda berhenti di negara → hasil tercatat.
+- Progres tersimpan otomatis di localStorage browser (refresh aman). Ada tombol **undo** untuk membatalkan hasil terakhir dan **reset** total.
+- Selesai undian: klik **"Salin participants.json"** → paste seluruh isinya ke `data/participants.json` (bisa via tombol ✏️ di GitHub) → commit. Selesai.
+- Daftar orang/tim per pot diatur di `js/draw.js` (const `POTS`).
+- Param debug: `?demo=1` (spin otomatis super cepat, tidak menyimpan progres).
