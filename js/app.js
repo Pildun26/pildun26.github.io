@@ -1,4 +1,4 @@
-/* PILDEON 26 — renderer
+/* PILDUN 26 — renderer
    Sumber data: data/teams.json + data/participants.json + data/standings.json */
 
 const $ = (sel) => document.querySelector(sel);

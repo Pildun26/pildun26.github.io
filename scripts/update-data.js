@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Pipeline data PILDEON 26 — Piala Dunia 2026
+ * Pipeline data PILDUN 26 — Piala Dunia 2026
  *
  * 1. Fetch jadwal + skor dari fixturedownload.com (gratis, tanpa API key).
  *    Kalau gagal, pakai cache terakhir di data/fixtures-raw.json.

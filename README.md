@@ -1,4 +1,4 @@
-# PILDEON 26 ⚽🏆
+# PILDUN 26 ⚽🏆
 
 Papan skor game sweepstakes Piala Dunia 2026 kantor — tiap orang pegang 1 negara, hadiah dibagi 2 fase (liga + knockout). Lihat detail aturan & desain di [PRD.md](PRD.md).
 
