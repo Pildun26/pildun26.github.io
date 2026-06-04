@@ -58,15 +58,15 @@ Dibutuhkan **satu halaman web** yang bisa diakses semua karyawan untuk memantau 
   3. Gol memasukkan (goals for)
   4. Peringkat FIFA terakhir sebelum turnamen (data statis, di-input di awal)
 - **Hadiah fase liga** (ditentukan setelah seluruh pertandingan fase grup selesai, 27 Juni 2026):
-  - 🥇 Peringkat 1: **Rp150.000**
-  - 🥈 Peringkat 2: **Rp100.000**
+  - 🥇 Peringkat 1: **Rp100.000**
+  - 🥈 Peringkat 2: **Rp50.000**
   - 🥉 Peringkat 3: **Rp50.000**
   - 🍀 **Lucky Spot**: posisi **11, 26, dan 38** klasemen akhir masing-masing **Rp50.000**. Posisi ditentukan & diumumkan sebelum kickoff (dikonfigurasi di `js/app.js`, const `LUCKY`), supaya peserta papan tengah tetap punya alasan mantengin klasemen sampai akhir.
 
 ### 4.3 Fase Knockout (28 Juni – 19 Juli 2026)
 - Mengikuti hasil asli babak knockout Piala Dunia: 32 besar → 16 besar → perempat final → semifinal → final.
 - **Hadiah fase knockout:**
-  - 🏅 **4 semifinalis** → masing-masing **Rp250.000**.
+  - 🏅 **4 semifinalis** → masing-masing **Rp100.000**.
   - 🏆 **Juara dunia** → **Rp500.000 + Jersey (KW Super) negara pemenang** (juara tetap menerima hadiah semifinalis + hadiah utama, kecuali panitia menentukan lain — lihat Open Questions).
 - Satu orang bisa menang di kedua fase (mis. negaranya peringkat 1 fase liga lalu juara dunia).
 
@@ -224,7 +224,7 @@ Bracket (F3) boleh dikerjakan setelah 11 Juni (baru dibutuhkan 28 Juni) kalau wa
 2. Berapa jumlah peserta pasti? Kalau < 48, apakah ada yang boleh pegang 2 negara, atau sisa negara dibiarkan tanpa pemilik? *(Default PRD: tanpa pemilik.)*
 3. Web mau publik (siapa pun dengan link bisa akses) atau perlu proteksi sederhana (URL rahasia cukup)? *(Default PRD: URL publik tidak di-index, dianggap cukup untuk game kantor.)*
 4. Apakah hasil undian sudah dilakukan, atau perlu fitur/momen undian? *(PRD ini mengasumsikan undian dilakukan offline dan hasilnya di-input admin.)*
-5. ~~Nominal/bentuk hadiah mau ditampilkan di web?~~ ✅ **Sudah diputuskan & ditampilkan**: Liga 250K/100K/50K · Semifinalis @250K · Juara 500K + jersey KW super negara pemenang.
+5. ~~Nominal/bentuk hadiah mau ditampilkan di web?~~ ✅ **Sudah diputuskan & ditampilkan**: Liga 100K/50K/50K + Lucky Spot 3×50K · Semifinalis @100K · Juara 500K + jersey KW super negara pemenang.
 
 ## 11. Metrik Sukses
 

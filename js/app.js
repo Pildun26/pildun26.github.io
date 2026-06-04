@@ -94,8 +94,8 @@ function renderPrizes() {
   while (semis.length < 4) semis.push(null);
 
   const grupCards = [
-    { icon: '🥇', label: 'Peringkat 1', amount: 'Rp150.000', code: top3[0] },
-    { icon: '🥈', label: 'Peringkat 2', amount: 'Rp100.000', code: top3[1] },
+    { icon: '🥇', label: 'Peringkat 1', amount: 'Rp100.000', code: top3[0] },
+    { icon: '🥈', label: 'Peringkat 2', amount: 'Rp50.000', code: top3[1] },
     { icon: '🥉', label: 'Peringkat 3', amount: 'Rp50.000', code: top3[2] },
   ];
   const luckyCards = LUCKY.ranks.map((r) => ({
@@ -103,7 +103,7 @@ function renderPrizes() {
     code: groupComplete ? league[r - 1].code : null,
   }));
   const koCards = [
-    ...semis.map((c, i) => ({ icon: '🏅', label: `Semifinalis ${i + 1}`, amount: 'Rp250.000', code: c })),
+    ...semis.map((c, i) => ({ icon: '🏅', label: `Semifinalis ${i + 1}`, amount: 'Rp100.000', code: c })),
     { icon: '🏆', label: 'JUARA DUNIA', amount: 'Rp500.000', extra: '+ Jersey (KW Super) negara pemenang 👕', code: knockout.champion, champion: true },
   ];
 
