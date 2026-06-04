@@ -1,0 +1,19 @@
+{
+  "_keterangan": "Koreksi manual hasil pertandingan. Override SELALU menang atas data API. Format: matchNumber (lihat data/fixtures-raw.json), homeScore, awayScore, winner (nama tim persis seperti di feed, hanya wajib untuk knockout yang berakhir seri/adu penalti), note (opsional).",
+  "_contoh": [
+    {
+      "matchNumber": 7,
+      "homeScore": 2,
+      "awayScore": 0,
+      "note": "koreksi skor, API salah"
+    },
+    {
+      "matchNumber": 89,
+      "homeScore": 1,
+      "awayScore": 1,
+      "winner": "Brazil",
+      "note": "Brasil menang adu penalti"
+    }
+  ],
+  "overrides": []
+}

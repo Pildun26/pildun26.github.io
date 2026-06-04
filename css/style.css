@@ -1,0 +1,469 @@
+/* ============================================================
+   PILDEON 26 — UI terinspirasi FIFA World Cup 26™
+   Bahasa desain: hitam-putih-emas, bentuk kotak + seperempat
+   lingkaran (signature "26"), tipografi bold stacked,
+   aksen multiwarna ala 16 host city.
+   ============================================================ */
+
+:root {
+  --black: #0a0a0a;
+  --black-2: #141414;
+  --black-3: #1d1d1d;
+  --white: #f5f5f3;
+  --grey: #8a8a86;
+  --grey-dark: #2b2b29;
+
+  /* Emas trofi — dipakai KHUSUS zona hadiah & juara */
+  --gold: #b69769;
+  --gold-bright: #e3c98f;
+  --silver: #b8bcc4;
+  --bronze: #c08a5c;
+
+  /* Aksen "host city" per section */
+  --green: #29b56a;   /* klasemen — hijau pitch */
+  --red: #e84855;     /* bracket */
+  --blue: #3f8efc;    /* peserta */
+  --purple: #9b5de5;  /* jadwal */
+
+  --font-display: 'Archivo Black', sans-serif;
+  --font-body: 'Noto Sans', sans-serif;
+
+  /* Signature shape: radius hanya di 2 sudut diagonal */
+  --r: 18px;
+  --radius-26: 0 var(--r) 0 var(--r);
+  --radius-26-alt: var(--r) 0 var(--r) 0;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+.container-wide { max-width: 1400px; } /* bracket butuh ruang lebih lega */
+.gold { color: var(--gold-bright); }
+
+/* ===== HERO ===== */
+.hero {
+  position: relative;
+  padding: 72px 0 48px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--grey-dark);
+}
+
+/* Pattern 48 bentuk: grid kotak + seperempat lingkaran, low opacity */
+.hero-pattern {
+  position: absolute; inset: 0;
+  background-image:
+    radial-gradient(circle at 100% 100%, var(--grey-dark) 0 24px, transparent 25px),
+    radial-gradient(circle at 0 0, var(--grey-dark) 0 24px, transparent 25px);
+  background-size: 96px 96px;
+  opacity: .35;
+  mask-image: linear-gradient(180deg, rgba(0,0,0,.9), transparent 80%);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,.9), transparent 80%);
+}
+
+.hero .container { position: relative; }
+
+.hero-kicker {
+  font-size: 12px; letter-spacing: .35em; color: var(--grey);
+  margin-bottom: 12px; font-weight: 700;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(56px, 12vw, 128px);
+  line-height: .92;
+  letter-spacing: -.01em;
+}
+
+.hero-sub { margin-top: 16px; color: var(--grey); font-size: 16px; }
+
+.hero-status { margin-top: 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+
+.phase-badge {
+  font-family: var(--font-display);
+  font-size: 13px;
+  padding: 8px 18px;
+  background: var(--white); color: var(--black);
+  border-radius: var(--radius-26);
+  text-transform: uppercase; letter-spacing: .06em;
+}
+.phase-badge.phase-pre { background: var(--white); }
+.phase-badge.phase-liga { background: var(--green); color: var(--black); }
+.phase-badge.phase-knockout { background: var(--red); color: var(--white); }
+.phase-badge.phase-selesai { background: linear-gradient(135deg, var(--gold), var(--gold-bright)); color: var(--black); }
+
+.updated { font-size: 12px; color: var(--grey); }
+
+/* Countdown */
+.countdown { display: flex; gap: 10px; margin-top: 28px; }
+.cd-box {
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26);
+  padding: 12px 0;
+  width: 76px;
+  text-align: center;
+}
+.cd-num { font-family: var(--font-display); font-size: 30px; display: block; color: var(--gold-bright); }
+.cd-label { font-size: 10px; letter-spacing: .2em; text-transform: uppercase; color: var(--grey); }
+
+/* ===== NAV ===== */
+.topnav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(10,10,10,.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--grey-dark);
+}
+.nav-links { display: flex; align-items: center; overflow-x: auto; padding: 0 8px; scrollbar-width: none; }
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--grey); text-decoration: none; font-size: 13px; font-weight: 700;
+  padding: 14px 16px; white-space: nowrap; transition: color .15s;
+}
+.nav-links a + a { border-left: 1px solid var(--grey-dark); }
+.nav-links a:hover { color: var(--white); }
+
+/* ===== SECTIONS ===== */
+.section { padding: 64px 0; border-bottom: 1px solid var(--grey-dark); }
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 5vw, 44px);
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-left: 18px;
+  border-left: 6px solid var(--accent, var(--white));
+  border-radius: 3px;
+}
+.section-sub { color: var(--grey); font-size: 14px; margin-bottom: 32px; max-width: 640px; }
+
+.accent-gold { --accent: var(--gold); }
+.accent-green { --accent: var(--green); }
+.accent-red { --accent: var(--red); }
+.accent-blue { --accent: var(--blue); }
+.accent-purple { --accent: var(--purple); }
+
+/* ===== PAPAN HADIAH ===== */
+.prize-group-title {
+  font-family: var(--font-display);
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--gold-bright);
+  margin: 36px 0 6px;
+  display: flex; align-items: center; gap: 14px;
+}
+.prize-group-title:first-of-type { margin-top: 0; }
+.prize-group-title::after { content: ''; flex: 1; height: 1px; background: var(--grey-dark); }
+.prize-group-sub { font-size: 13px; color: var(--grey); margin-bottom: 18px; }
+
+.prize-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.prize-card {
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.prize-card.won { border-color: var(--gold); background: linear-gradient(160deg, #1d1709, var(--black-2) 55%); }
+
+/* Lucky Spot 🍀 — satu baris sendiri, aksen hijau biar kelihatan beda */
+.prize-grid-lucky { grid-template-columns: repeat(3, 1fr); margin-top: 14px; }
+.prize-card.lucky-card { border-color: rgba(41,181,106,.45); background: linear-gradient(160deg, #0c1a12, var(--black-2) 60%); }
+.lucky-card .prize-amount { color: var(--green); }
+.prize-card.lucky-card.won { border-color: var(--green); }
+@media (max-width: 640px) { .prize-grid-lucky { grid-template-columns: 1fr; } }
+
+/* Kartu Juara Dunia — full-width, emas, mewah, beda sendiri */
+.prize-card.champion-card {
+  grid-column: 1 / -1;
+  border: 1px solid var(--gold);
+  background:
+    radial-gradient(ellipse at 85% 0%, rgba(182,151,105,.28), transparent 55%),
+    linear-gradient(160deg, #251c0a, #14100a 60%);
+  box-shadow: 0 0 36px rgba(182,151,105,.18), inset 0 1px 0 rgba(227,201,143,.25);
+  padding: 28px 26px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 28px;
+}
+.champion-card .prize-icon { font-size: 44px; }
+.champion-card .prize-label {
+  font-size: 22px; margin: 0;
+  background: linear-gradient(90deg, var(--gold-bright), var(--gold));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.champion-card .prize-amount { font-size: 26px; margin: 0; }
+.champion-card .prize-winner, .champion-card .prize-tbd { width: 100%; margin-top: 10px; }
+.prize-card.champion-card.won {
+  border-color: var(--gold-bright);
+  box-shadow: 0 0 56px rgba(227,201,143,.35), inset 0 1px 0 rgba(227,201,143,.35);
+}
+.prize-icon { font-size: 28px; }
+.prize-label {
+  font-family: var(--font-display); font-size: 14px; margin: 8px 0 14px;
+  text-transform: uppercase; letter-spacing: .04em;
+}
+.prize-amount {
+  font-family: var(--font-display); font-size: 19px; color: var(--gold-bright);
+  margin: -8px 0 14px;
+}
+.prize-amount small { font-family: var(--font-body); font-weight: 700; font-size: 11.5px; color: var(--gold); display: block; margin-top: 2px; }
+.prize-winner { display: flex; align-items: center; gap: 10px; }
+.prize-winner img { width: 34px; border-radius: 3px; }
+.prize-winner .who strong { display: block; font-size: 15px; }
+.prize-winner .who span { font-size: 12.5px; color: var(--gold-bright); }
+.prize-tbd { color: var(--grey); font-size: 14px; font-style: italic; }
+
+/* ===== KLASEMEN ===== */
+.table-wrap { overflow-x: auto; border-radius: var(--radius-26); border: 1px solid var(--grey-dark); }
+.league-table { width: 100%; border-collapse: collapse; background: var(--black-2); font-size: 14px; }
+.league-table th {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--grey);
+  padding: 12px 8px; text-align: center; border-bottom: 1px solid var(--grey-dark);
+  background: var(--black-2);
+}
+.league-table th.col-team { text-align: left; }
+.league-table td { padding: 10px 8px; text-align: center; border-bottom: 1px solid #1a1a18; }
+.league-table tbody tr:last-child td { border-bottom: none; }
+.league-table tbody tr:hover { background: #191919; }
+
+.col-rank { width: 44px; }
+.rank-num { font-family: var(--font-display); font-size: 15px; }
+
+.team-cell { display: flex; align-items: center; gap: 10px; text-align: left; }
+.team-cell img { width: 30px; height: 20px; object-fit: cover; border-radius: 2px; flex-shrink: 0; }
+.team-cell .t-name { font-weight: 700; font-size: 14px; line-height: 1.2; }
+.team-cell .t-holder { font-size: 12px; color: var(--grey); line-height: 1.3; }
+.team-cell .t-holder.has-holder { color: #c9c9c5; }
+
+.col-pts { font-family: var(--font-display); font-size: 15px; }
+td.col-pts { color: var(--white); }
+
+/* Zona hadiah 1-3 */
+tr.zone-1 td { background: linear-gradient(90deg, rgba(182,151,105,.22), transparent 70%); }
+tr.zone-2 td { background: linear-gradient(90deg, rgba(184,188,196,.16), transparent 70%); }
+tr.zone-3 td { background: linear-gradient(90deg, rgba(192,138,92,.16), transparent 70%); }
+tr.zone-1 .rank-num { color: var(--gold-bright); }
+tr.zone-2 .rank-num { color: var(--silver); }
+tr.zone-3 .rank-num { color: var(--bronze); }
+
+/* Zona Lucky Spot 🍀 */
+tr.zone-lucky td { background: linear-gradient(90deg, rgba(41,181,106,.15), transparent 70%); }
+tr.zone-lucky .rank-num { color: var(--green); }
+
+/* Negara tanpa pemilik */
+tr.no-owner { opacity: .45; }
+
+.table-note { font-size: 11.5px; color: var(--grey); margin-top: 14px; line-height: 1.7; }
+
+/* ===== BRACKET ===== */
+.scroll-hint { display: none; font-size: 12px; color: var(--grey); margin: -20px 0 16px; }
+.bracket-scroll { overflow-x: auto; padding-bottom: 12px; }
+.bracket { display: flex; gap: 12px; min-width: 1020px; }
+.bracket-round { flex: 1; display: flex; flex-direction: column; }
+.bracket-round-title {
+  font-family: var(--font-display); font-size: 13px; text-align: center;
+  color: var(--grey); margin-bottom: 14px; text-transform: uppercase; letter-spacing: .06em;
+}
+.bracket-matches { display: flex; flex-direction: column; justify-content: space-around; flex: 1; gap: 10px; }
+
+.bracket-match {
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26-alt);
+  padding: 7px 9px;
+  font-size: 12px;
+}
+.bracket-match .bm-date { font-size: 10px; color: var(--grey); margin-bottom: 6px; }
+.bm-team { display: flex; align-items: center; gap: 7px; padding: 3px 0; }
+.bm-team img { width: 22px; height: 15px; object-fit: cover; border-radius: 2px; }
+.bm-team .bm-name { flex: 1; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bm-team .bm-holder { font-size: 10.5px; color: var(--grey); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80px; }
+.bm-team .bm-score { font-family: var(--font-display); font-size: 14px; min-width: 18px; text-align: right; }
+.bm-team.bm-winner .bm-name, .bm-team.bm-winner .bm-score { color: var(--gold-bright); }
+.bm-team.bm-loser { opacity: .4; }
+.bm-team.bm-loser .bm-name { text-decoration: line-through; }
+.bm-placeholder { color: var(--grey); font-style: italic; font-weight: 400; }
+
+.bracket-match.bm-semi { border-color: rgba(232,72,85,.5); }
+.bracket-match.bm-final { border-color: var(--gold); background: linear-gradient(160deg, #1d1709, var(--black-2) 60%); }
+.bracket-match.bm-bronze { opacity: .8; }
+.bm-tag { font-size: 9.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--grey); }
+.bm-final .bm-tag { color: var(--gold-bright); }
+
+/* ===== JADWAL & HASIL ===== */
+.match-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+.tab {
+  font-family: var(--font-body); font-weight: 700; font-size: 13px;
+  background: var(--black-2); color: var(--grey);
+  border: 1px solid var(--grey-dark); border-radius: var(--radius-26);
+  padding: 9px 18px; cursor: pointer; transition: all .15s;
+}
+.tab.active { background: var(--white); color: var(--black); border-color: var(--white); }
+
+.match-list { display: flex; flex-direction: column; gap: 8px; }
+
+.match-day-label {
+  font-family: var(--font-display); font-size: 12px; color: var(--grey);
+  text-transform: uppercase; letter-spacing: .1em; margin: 14px 0 4px;
+}
+
+.match-card {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center; gap: 10px;
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26);
+  padding: 12px 14px;
+}
+.mc-side { display: flex; align-items: center; gap: 9px; min-width: 0; }
+.mc-side.right { flex-direction: row-reverse; text-align: right; }
+.mc-side img { width: 28px; height: 19px; object-fit: cover; border-radius: 2px; flex-shrink: 0; }
+.mc-side .mc-team { min-width: 0; }
+.mc-side .mc-name { font-weight: 700; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mc-side .mc-holder { font-size: 11px; color: var(--grey); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mc-center { text-align: center; min-width: 72px; }
+.mc-score { font-family: var(--font-display); font-size: 19px; }
+.mc-time { font-family: var(--font-display); font-size: 14px; color: var(--white); }
+.mc-meta { font-size: 10px; color: var(--grey); margin-top: 2px; }
+
+.btn-more {
+  margin: 20px auto 0; display: block;
+  font-family: var(--font-body); font-weight: 700; font-size: 13px;
+  background: transparent; color: var(--white);
+  border: 1px solid var(--grey); border-radius: var(--radius-26);
+  padding: 10px 24px; cursor: pointer; transition: all .15s;
+}
+.btn-more:hover { background: var(--white); color: var(--black); }
+
+/* ===== PESERTA ===== */
+.search-box {
+  width: 100%; max-width: 420px;
+  background: var(--black-2); color: var(--white);
+  border: 1px solid var(--grey-dark); border-radius: var(--radius-26);
+  padding: 13px 18px; font-size: 15px; font-family: var(--font-body);
+  margin-bottom: 24px; outline: none; transition: border-color .15s;
+}
+.search-box:focus { border-color: var(--blue); }
+.search-box::placeholder { color: var(--grey); }
+
+.participant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.p-card {
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26);
+  padding: 14px;
+  text-align: center;
+  transition: transform .12s, border-color .12s;
+}
+.p-card:hover { transform: translateY(-2px); border-color: var(--blue); }
+.p-card img { width: 52px; height: 35px; object-fit: cover; border-radius: 3px; margin-bottom: 8px; }
+.p-card .p-country { font-weight: 700; font-size: 13px; line-height: 1.25; }
+.p-card .p-group { font-size: 10px; color: var(--grey); letter-spacing: .1em; margin: 2px 0 6px; }
+.p-card .p-name { font-size: 12.5px; color: var(--blue); font-weight: 600; }
+.p-card.no-owner { opacity: .45; }
+.p-card.no-owner .p-name { color: var(--grey); font-style: italic; font-weight: 400; }
+.p-card.eliminated { border-style: dashed; }
+.p-card.eliminated .p-country { text-decoration: line-through; opacity: .6; }
+.p-card .p-status { font-size: 10px; margin-top: 5px; }
+
+/* ===== ATURAN ===== */
+.rules { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+@media (max-width: 1000px) { .rules { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .rules { grid-template-columns: 1fr; } }
+.rule-card {
+  background: var(--black-2);
+  border: 1px solid var(--grey-dark);
+  border-radius: var(--radius-26);
+  padding: 22px;
+}
+.rule-card h3 { font-size: 16px; margin-bottom: 10px; }
+.rule-card p { font-size: 13.5px; color: #c9c9c5; margin-bottom: 8px; }
+.rule-card p:last-child { margin-bottom: 0; }
+.rule-date {
+  font-size: 11px; font-weight: 400; color: var(--grey);
+  border: 1px solid var(--grey-dark); border-radius: 99px; padding: 2px 9px;
+  vertical-align: middle; margin-left: 6px;
+  display: inline-block; white-space: nowrap;
+}
+.rule-fine { font-size: 11.5px !important; color: var(--grey) !important; }
+
+/* ===== FOOTER ===== */
+.footer { padding: 36px 0 48px; text-align: center; color: var(--grey); font-size: 13px; }
+.footer-fine { font-size: 11px; margin-top: 8px; opacity: .7; }
+
+/* ===== RESPONSIVE ===== */
+
+/* Bracket: di bawah lebar penuhnya, tampilkan hint geser */
+@media (max-width: 1060px) {
+  .scroll-hint { display: block; }
+}
+
+@media (max-width: 640px) {
+  .hide-sm { display: none; }
+  .section { padding: 44px 0; }
+  .section-sub { font-size: 13px; }
+
+  /* Hero & countdown */
+  .hero { padding: 52px 0 40px; }
+  .countdown { gap: 7px; }
+  .cd-box { width: 64px; padding: 9px 0; }
+  .cd-num { font-size: 24px; }
+  .hero-status { gap: 10px; }
+
+  /* Papan hadiah */
+  .prize-group-title { font-size: 16px; }
+  .prize-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+  .prize-card { padding: 16px 14px; }
+  .prize-label { font-size: 12.5px; }
+  .prize-amount { font-size: 17px; }
+  .prize-card.champion-card { padding: 22px 18px; gap: 4px 16px; }
+  .champion-card .prize-icon { font-size: 34px; }
+  .champion-card .prize-label { font-size: 18px; }
+  .champion-card .prize-amount { font-size: 21px; }
+
+  /* Klasemen */
+  .team-cell img { width: 26px; height: 17px; }
+  .league-table { font-size: 13px; }
+  .league-table td { padding: 9px 6px; }
+  .league-table th { padding: 10px 6px; }
+
+  /* Jadwal */
+  .mc-side .mc-holder { display: none; }
+  .match-card { padding: 10px; gap: 8px; }
+  .mc-side .mc-name { font-size: 12.5px; }
+  .mc-center { min-width: 60px; }
+  .tab { padding: 8px 14px; font-size: 12.5px; }
+
+  /* Peserta */
+  .participant-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+  .p-card { padding: 12px 10px; }
+
+  /* Aturan */
+  .rule-card { padding: 18px 16px; }
+}
+
+
+
+
+
+
+
