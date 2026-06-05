@@ -6,7 +6,7 @@
    - Param debug: ?demo=1 (auto acak+spin cepat, tanpa save) · ?undian=force (buka paksa saat terkunci). */
 
 (() => {
-  const DRAW_ENABLED = false; // ⬅ undian selesai 5 Juni 2026 — hasil final di data/participants.json
+  const DRAW_ENABLED = true; // ⬅ set false setelah undian selesai & hasil di-commit
 
   const q = (s) => document.querySelector(s);
 
