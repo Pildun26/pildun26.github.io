@@ -29,7 +29,18 @@ const BRACKET_COLUMNS = [
 ];
 
 const flagUrl = (code, w = 'w40') => `https://flagcdn.com/${w}/${state.teams[code].flag}.png`;
-const holderOf = (code) => (state.participants[code] || '').trim();
+
+/* Hasil undian live dari localStorage (sebelum di-commit ke participants.json) */
+function drawLocalMap() {
+  try {
+    const s = JSON.parse(localStorage.getItem('pildun-draw-v1') || 'null');
+    const map = {};
+    for (const pot of [1, 2]) for (const a of (s?.assignments?.[pot] ?? [])) map[a.code] = a.person;
+    return map;
+  } catch (e) { return {}; }
+}
+let drawMap = drawLocalMap();
+const holderOf = (code) => (state.participants[code] || drawMap[code] || '').trim();
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 function placeholderLabel(raw) {
@@ -328,6 +339,16 @@ async function init() {
   renderParticipants();
   setupTabs();
   $('#search-box').addEventListener('input', (e) => renderParticipants(e.target.value));
+
+  /* Hook untuk draw.js: refresh nama pemegang setiap ada hasil undian baru */
+  window.PILDUN_REFRESH = () => {
+    drawMap = drawLocalMap();
+    renderPrizes();
+    renderLeague();
+    renderBracket();
+    renderMatches();
+    renderParticipants($('#search-box').value);
+  };
 }
 
 init().catch((err) => {

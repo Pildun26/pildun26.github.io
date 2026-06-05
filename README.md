@@ -82,13 +82,17 @@ const LUCKY = { ranks: [11, 26, 38], amount: 'Rp50.000' };
 
 Ubah angka posisinya sebelum kickoff, lalu commit. Baris posisi tersebut otomatis di-highlight ungu + 🍀 di klasemen.
 
-## Undian 🎡
+## Undian
 
-Halaman spinwheel untuk acara undian live: **`/undian.html`** (tidak ada di menu utama — khusus panitia).
+Section **Undian** ada di paling bawah halaman utama (link "Undian" di menu). Khusus dipakai panitia saat acara undian live.
 
-- **Pot 1**: 25 orang ↔ 25 tim unggulan · **Pot 2**: 15 orang ↔ 23 tim hore-hore (8 negara sisa tanpa pemilik).
-- Orang diundi urut sesuai daftar; klik **PUTAR!** → roda berhenti di negara → hasil tercatat.
-- Progres tersimpan otomatis di localStorage browser (refresh aman). Ada tombol **undo** untuk membatalkan hasil terakhir dan **reset** total.
-- Selesai undian: klik **"Salin participants.json"** → paste seluruh isinya ke `data/participants.json` (bisa via tombol ✏️ di GitHub) → commit. Selesai.
-- Daftar orang/tim per pot diatur di `js/draw.js` (const `POTS`).
-- Param debug: `?demo=1` (spin otomatis super cepat, tidak menyimpan progres).
+**Alur per pot:**
+1. Klik **ACAK URUTAN GILIRAN** — urutan nama diacak (Fisher-Yates) biar fair siapa duluan. Bisa diacak ulang selama belum ada yang spin.
+2. Panggil orang sesuai giliran → dia klik **PUTAR!** → roda melambat dramatis → negara didapat.
+3. Hasil **langsung tampil di section Peserta & klasemen** dan tersimpan otomatis di localStorage browser (reload aman). Ada **undo** untuk membatalkan hasil terakhir.
+
+**Finalisasi:** setelah kedua pot selesai, muncul blok finalisasi → klik **Salin participants.json** → paste seluruh isinya ke `data/participants.json` di GitHub (tombol ✏️) → commit. Begitu ter-commit, fitur undian otomatis terkunci dan nama tampil permanen untuk semua orang.
+
+- Pot 1: 25 orang ↔ 25 tim unggulan · Pot 2: 15 orang ↔ 23 tim hore-hore (8 negara tanpa pemilik).
+- Daftar orang/tim per pot: const `POTS` di `js/draw.js`. Matikan permanen: `DRAW_ENABLED = false`.
+- Debug: `?demo=1` (auto acak+spin cepat, tanpa save) · `?demo=2` (sama, dengan save) · `?undian=force` (buka paksa saat terkunci).

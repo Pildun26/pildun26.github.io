@@ -14,8 +14,8 @@
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <header class="hero">
+  <!-- ===== BERANDA ===== -->
+  <header class="hero" id="beranda">
     <div class="hero-pattern" aria-hidden="true"></div>
     <div class="container">
       <p class="hero-kicker">PIALA DUNIA 2026 · KANADA · MEKSIKO · AS</p>
@@ -36,12 +36,14 @@
 
   <nav class="topnav">
     <div class="container nav-links">
+      <a href="#beranda">Beranda</a>
       <a href="#hadiah">Hadiah</a>
       <a href="#klasemen">Klasemen</a>
       <a href="#bracket">Bracket</a>
       <a href="#jadwal">Jadwal</a>
       <a href="#peserta">Peserta</a>
       <a href="#aturan">Aturan</a>
+      <a href="#undian">Undian</a>
     </div>
   </nav>
 
@@ -153,6 +155,59 @@
         </div>
       </div>
     </section>
+    <!-- ===== UNDIAN (panitia) ===== -->
+    <section id="undian" class="section accent-gold">
+      <div class="container">
+        <h2 class="section-title">UNDIAN 🎡</h2>
+        <p class="section-sub">Alur: <strong>acak urutan giliran dulu</strong> (biar fair siapa duluan), baru putar roda negara. Setiap hasil langsung tampil di bagian <a href="#peserta" style="color:var(--gold-bright)">Peserta</a> &amp; tersimpan otomatis di browser ini sampai panitia commit hasil finalnya.</p>
+
+        <div class="draw-locked" id="draw-locked" hidden>
+          🎉 <strong>Undian sudah selesai!</strong> Semua hasil sudah final — lihat di bagian <a href="#peserta">Peserta</a>.
+        </div>
+
+        <div id="draw-app">
+          <div class="pot-tabs">
+            <button class="pot-tab active" data-pot="1">⭐ Pot 1 — Tim Unggulan <span class="pot-progress" id="prog-1"></span></button>
+            <button class="pot-tab" data-pot="2">🎉 Pot 2 — Tim Hore-hore <span class="pot-progress" id="prog-2"></span></button>
+          </div>
+
+          <div class="draw-layout">
+            <div class="wheel-box">
+              <div class="wheel-wrap">
+                <div class="wheel-pointer"></div>
+                <div class="wheel-hub">⚽</div>
+                <canvas id="wheel" width="1080" height="1080"></canvas>
+              </div>
+              <div class="turn-box">
+                <div class="turn-label">Giliran Mengundi</div>
+                <div class="turn-name" id="turn-name">—</div>
+                <div class="turn-count" id="turn-count"></div>
+              </div>
+              <button class="btn-shuffle" id="btn-shuffle" hidden>ACAK URUTAN GILIRAN</button>
+              <button class="btn-spin" id="btn-spin" hidden>PUTAR! 🎡</button>
+              <button class="btn-undo" id="btn-undo" hidden>↩ Batalkan hasil terakhir</button>
+            </div>
+
+            <div class="result-panel">
+              <h2 id="panel-title">URUTAN &amp; HASIL</h2>
+              <p class="rp-sub" id="panel-sub"></p>
+              <div class="result-list" id="result-list"></div>
+              <div class="export-box">
+                <button class="btn-reset" id="btn-reset">Reset semua</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Muncul hanya setelah KEDUA pot selesai diundi -->
+          <div class="finalize-box" id="finalize-box" hidden>
+            <h3>🏁 Undian selesai — saatnya finalisasi!</h3>
+            <p>Hasil di atas baru tersimpan di browser laptop ini. Supaya <strong>permanen &amp; tampil untuk semua orang</strong>, salin file di bawah, paste ke <code>data/participants.json</code> di GitHub (tombol ✏️), lalu commit. Setelah itu fitur undian otomatis terkunci.</p>
+            <button class="btn-export" id="btn-export">📋 Salin participants.json</button>
+            <textarea id="export-area" hidden readonly></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
@@ -163,5 +218,6 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="js/draw.js"></script>
 </body>
 </html>
