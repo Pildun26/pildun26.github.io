@@ -88,7 +88,7 @@ function renderHeader() {
 
 /* ===== PAPAN HADIAH ===== */
 function prizeWinnerHtml(code) {
-  if (!code) return '<p class="prize-tbd">Belum ditentukan</p>';
+  if (!code) return '';
   const t = state.teams[code];
   const holder = holderOf(code);
   return `<div class="prize-winner">
