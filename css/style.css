@@ -84,7 +84,45 @@ body {
   letter-spacing: -.01em;
 }
 
-.hero-sub { margin-top: 16px; color: var(--grey); font-size: 16px; }
+.hero-sponsor {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--grey);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 6px 16px;
+  border-radius: var(--radius-26);
+  border: 1px solid var(--grey-dark);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.hero-sponsor:hover {
+  border-color: var(--gold);
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 20px rgba(182, 151, 105, 0.12);
+  transform: translateY(-1px);
+}
+
+.hero-sponsor img {
+  height: 16px;
+  width: auto;
+  opacity: 0.8;
+  transition: all 0.25s ease;
+}
+
+.hero-sponsor:hover img {
+  opacity: 1;
+}
+
+.hero-sub { margin-top: 18px; color: var(--grey); font-size: 16px; }
 
 .hero-status { margin-top: 24px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 
