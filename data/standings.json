@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-06-11T20:09:17.769Z",
+  "generatedAt": "2026-06-11T23:13:11.336Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
   "league": [
     {
-      "code": "ESP",
-      "played": 0,
-      "w": 0,
+      "code": "MEX",
+      "played": 1,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
+      "gf": 2,
       "ga": 0,
-      "gd": 0,
-      "pts": 0,
+      "gd": 2,
+      "pts": 3,
       "rank": 1
     },
     {
-      "code": "ARG",
+      "code": "ESP",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -29,7 +29,7 @@
       "rank": 2
     },
     {
-      "code": "FRA",
+      "code": "ARG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -41,7 +41,7 @@
       "rank": 3
     },
     {
-      "code": "ENG",
+      "code": "FRA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -53,7 +53,7 @@
       "rank": 4
     },
     {
-      "code": "BRA",
+      "code": "ENG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -65,7 +65,7 @@
       "rank": 5
     },
     {
-      "code": "POR",
+      "code": "BRA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -77,7 +77,7 @@
       "rank": 6
     },
     {
-      "code": "NED",
+      "code": "POR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -89,7 +89,7 @@
       "rank": 7
     },
     {
-      "code": "BEL",
+      "code": "NED",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -101,7 +101,7 @@
       "rank": 8
     },
     {
-      "code": "GER",
+      "code": "BEL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -113,7 +113,7 @@
       "rank": 9
     },
     {
-      "code": "CRO",
+      "code": "GER",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -125,7 +125,7 @@
       "rank": 10
     },
     {
-      "code": "MAR",
+      "code": "CRO",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -137,7 +137,7 @@
       "rank": 11
     },
     {
-      "code": "COL",
+      "code": "MAR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -149,7 +149,7 @@
       "rank": 12
     },
     {
-      "code": "MEX",
+      "code": "COL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -485,7 +485,7 @@
       "rank": 40
     },
     {
-      "code": "RSA",
+      "code": "JOR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -497,7 +497,7 @@
       "rank": 41
     },
     {
-      "code": "JOR",
+      "code": "CPV",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -509,7 +509,7 @@
       "rank": 42
     },
     {
-      "code": "CPV",
+      "code": "GHA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -521,7 +521,7 @@
       "rank": 43
     },
     {
-      "code": "GHA",
+      "code": "BIH",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -533,7 +533,7 @@
       "rank": 44
     },
     {
-      "code": "BIH",
+      "code": "CUW",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -545,7 +545,7 @@
       "rank": 45
     },
     {
-      "code": "CUW",
+      "code": "NZL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -557,7 +557,7 @@
       "rank": 46
     },
     {
-      "code": "NZL",
+      "code": "HAI",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -569,14 +569,14 @@
       "rank": 47
     },
     {
-      "code": "HAI",
-      "played": 0,
+      "code": "RSA",
+      "played": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
+      "l": 1,
       "gf": 0,
-      "ga": 0,
-      "gd": 0,
+      "ga": 2,
+      "gd": -2,
       "pts": 0,
       "rank": 48
     }
@@ -599,8 +599,8 @@
       "away": "RSA",
       "homeRaw": "Mexico",
       "awayRaw": "South Africa",
-      "hs": null,
-      "as": null,
+      "hs": 2,
+      "as": 0,
       "winner": null
     },
     {

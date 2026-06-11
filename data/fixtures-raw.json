@@ -7,9 +7,9 @@
     "HomeTeam": "Mexico",
     "AwayTeam": "South Africa",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 0,
+    "Winner": "Mexico"
   },
   {
     "MatchNumber": 2,
