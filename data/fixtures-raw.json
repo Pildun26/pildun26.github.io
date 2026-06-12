@@ -31,9 +31,9 @@
     "HomeTeam": "Canada",
     "AwayTeam": "Bosnia and Herzegovina",
     "Group": "Group B",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 4,
