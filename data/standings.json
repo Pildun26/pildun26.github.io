@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T02:29:39.312Z",
+  "generatedAt": "2026-06-12T06:02:03.039Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -17,19 +17,19 @@
       "rank": 1
     },
     {
-      "code": "ESP",
-      "played": 0,
-      "w": 0,
+      "code": "KOR",
+      "played": 1,
+      "w": 1,
       "d": 0,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
+      "gf": 2,
+      "ga": 1,
+      "gd": 1,
+      "pts": 3,
       "rank": 2
     },
     {
-      "code": "ARG",
+      "code": "ESP",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -41,7 +41,7 @@
       "rank": 3
     },
     {
-      "code": "FRA",
+      "code": "ARG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -53,7 +53,7 @@
       "rank": 4
     },
     {
-      "code": "ENG",
+      "code": "FRA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -65,7 +65,7 @@
       "rank": 5
     },
     {
-      "code": "BRA",
+      "code": "ENG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -77,7 +77,7 @@
       "rank": 6
     },
     {
-      "code": "POR",
+      "code": "BRA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -89,7 +89,7 @@
       "rank": 7
     },
     {
-      "code": "NED",
+      "code": "POR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -101,7 +101,7 @@
       "rank": 8
     },
     {
-      "code": "BEL",
+      "code": "NED",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -113,7 +113,7 @@
       "rank": 9
     },
     {
-      "code": "GER",
+      "code": "BEL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -125,7 +125,7 @@
       "rank": 10
     },
     {
-      "code": "CRO",
+      "code": "GER",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -137,7 +137,7 @@
       "rank": 11
     },
     {
-      "code": "MAR",
+      "code": "CRO",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -149,7 +149,7 @@
       "rank": 12
     },
     {
-      "code": "COL",
+      "code": "MAR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -161,7 +161,7 @@
       "rank": 13
     },
     {
-      "code": "URU",
+      "code": "COL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -173,7 +173,7 @@
       "rank": 14
     },
     {
-      "code": "USA",
+      "code": "URU",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -185,7 +185,7 @@
       "rank": 15
     },
     {
-      "code": "SUI",
+      "code": "USA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -197,7 +197,7 @@
       "rank": 16
     },
     {
-      "code": "SEN",
+      "code": "SUI",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -209,7 +209,7 @@
       "rank": 17
     },
     {
-      "code": "JPN",
+      "code": "SEN",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -221,7 +221,7 @@
       "rank": 18
     },
     {
-      "code": "IRN",
+      "code": "JPN",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -233,7 +233,7 @@
       "rank": 19
     },
     {
-      "code": "KOR",
+      "code": "IRN",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -413,7 +413,7 @@
       "rank": 34
     },
     {
-      "code": "CZE",
+      "code": "UZB",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -425,7 +425,7 @@
       "rank": 35
     },
     {
-      "code": "UZB",
+      "code": "QAT",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -437,7 +437,7 @@
       "rank": 36
     },
     {
-      "code": "QAT",
+      "code": "COD",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -449,7 +449,7 @@
       "rank": 37
     },
     {
-      "code": "COD",
+      "code": "IRQ",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -461,7 +461,7 @@
       "rank": 38
     },
     {
-      "code": "IRQ",
+      "code": "KSA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -473,7 +473,7 @@
       "rank": 39
     },
     {
-      "code": "KSA",
+      "code": "JOR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -485,7 +485,7 @@
       "rank": 40
     },
     {
-      "code": "JOR",
+      "code": "CPV",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -497,7 +497,7 @@
       "rank": 41
     },
     {
-      "code": "CPV",
+      "code": "GHA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -509,7 +509,7 @@
       "rank": 42
     },
     {
-      "code": "GHA",
+      "code": "BIH",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -521,7 +521,7 @@
       "rank": 43
     },
     {
-      "code": "BIH",
+      "code": "CUW",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -533,7 +533,7 @@
       "rank": 44
     },
     {
-      "code": "CUW",
+      "code": "NZL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -545,7 +545,7 @@
       "rank": 45
     },
     {
-      "code": "NZL",
+      "code": "HAI",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -557,14 +557,14 @@
       "rank": 46
     },
     {
-      "code": "HAI",
-      "played": 0,
+      "code": "CZE",
+      "played": 1,
       "w": 0,
       "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "gd": -1,
       "pts": 0,
       "rank": 47
     },
@@ -614,8 +614,8 @@
       "away": "CZE",
       "homeRaw": "Korea Republic",
       "awayRaw": "Czechia",
-      "hs": null,
-      "as": null,
+      "hs": 2,
+      "as": 1,
       "winner": null
     },
     {

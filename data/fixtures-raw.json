@@ -19,9 +19,9 @@
     "HomeTeam": "Korea Republic",
     "AwayTeam": "Czechia",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Korea Republic"
   },
   {
     "MatchNumber": 3,
