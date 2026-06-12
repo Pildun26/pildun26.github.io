@@ -115,7 +115,7 @@ function renderPrizes() {
   }));
   const koCards = [
     ...semis.map((c, i) => ({ icon: '🏅', label: `Semifinalis ${i + 1}`, amount: 'Rp100.000', code: c })),
-    { icon: '🏆', label: 'JUARA DUNIA', amount: 'Rp500.000', extra: '+ Jersey (KW Super) negara pemenang 👕', code: knockout.champion, champion: true },
+    { icon: '🏆', label: 'JUARA DUNIA', amount: 'Rp**0.000', extra: '+ Jersey (KW Super) negara pemenang 👕', code: knockout.champion, champion: true },
   ];
 
   const cardHtml = (c) => `
