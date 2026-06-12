@@ -62,27 +62,27 @@ const fmtWIB = {
 
 /* ===== HEADER ===== */
 function renderHeader() {
-  const { phase, generatedAt, kickoff } = state.standings;
+  const { phase, generatedAt } = state.standings;
   const badge = $('#phase-badge');
   badge.textContent = PHASE_LABEL[phase];
   badge.className = `phase-badge phase-${phase}`;
   $('#updated-at').textContent = `Update terakhir: ${fmtWIB.full.format(new Date(generatedAt))} WIB`;
 
-  if (phase === 'pre') {
-    const el = $('#countdown');
-    el.hidden = false;
-    const target = new Date(kickoff);
-    const tick = () => {
-      let diff = Math.max(0, target - new Date());
-      const d = Math.floor(diff / 864e5);
-      const h = Math.floor(diff / 36e5) % 24;
-      const m = Math.floor(diff / 6e4) % 60;
-      const s = Math.floor(diff / 1e3) % 60;
-      $('#cd-d').textContent = d; $('#cd-h').textContent = h;
-      $('#cd-m').textContent = m; $('#cd-s').textContent = s;
-    };
-    tick();
-    setInterval(tick, 1000);
+  /* Estimasi update selanjutnya: berdasarkan pertandingan terdekat yang belum selesai */
+  const now = new Date();
+  const upcoming = state.standings.matches
+    .filter((m) => m.hs == null && new Date(m.date) > now)
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  const el = $('#next-update');
+  if (upcoming.length && phase !== 'selesai') {
+    const next = new Date(upcoming[0].date);
+    /* Estimasi update = setelah pertandingan selesai (~2 jam setelah kickoff) */
+    const est = new Date(next.getTime() + 2 * 60 * 60 * 1000);
+    el.textContent = `📡 Estimasi update selanjutnya: ${fmtWIB.full.format(est)} WIB (setelah pertandingan selesai)`;
+  } else if (phase === 'selesai') {
+    el.textContent = '🏁 Turnamen selesai — tidak ada update lagi.';
+  } else {
+    el.textContent = '';
   }
 }
 

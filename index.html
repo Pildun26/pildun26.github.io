@@ -20,51 +20,28 @@
     <div class="container">
       <p class="hero-kicker">PIALA DUNIA 2026 · KANADA · MEKSIKO · AS</p>
       <h1 class="hero-title">PILDUN<span class="gold">26</span></h1>
-      <div class="hero-sponsor">
-        <span>Supported by</span>
-        <img src="https://assets.joyrabbit.xyz/Random%20Assets/raga%20%2B-09.png" alt="Raga Logo">
-      </div>
       <p class="hero-sub">1 orang · 1 negara · 1 mimpi jadi juara dunia 🏆</p>
       <div class="hero-status">
         <span class="phase-badge" id="phase-badge">…</span>
         <span class="updated" id="updated-at"></span>
       </div>
-      <div class="countdown" id="countdown" hidden>
-        <div class="cd-box"><span class="cd-num" id="cd-d">0</span><span class="cd-label">Hari</span></div>
-        <div class="cd-box"><span class="cd-num" id="cd-h">0</span><span class="cd-label">Jam</span></div>
-        <div class="cd-box"><span class="cd-num" id="cd-m">0</span><span class="cd-label">Menit</span></div>
-        <div class="cd-box"><span class="cd-num" id="cd-s">0</span><span class="cd-label">Detik</span></div>
-      </div>
+      <p class="next-update" id="next-update"></p>
     </div>
   </header>
 
   <nav class="topnav">
     <div class="container nav-links">
       <a href="#beranda">Beranda</a>
-      <a href="#hadiah">Hadiah</a>
       <a href="#klasemen">Klasemen</a>
       <a href="#bracket">Bracket</a>
       <a href="#jadwal">Jadwal</a>
       <a href="#peserta">Peserta</a>
+      <a href="#hadiah">Hadiah</a>
       <a href="#aturan">Aturan</a>
     </div>
   </nav>
 
   <main>
-    <!-- ===== PAPAN HADIAH ===== -->
-    <section id="hadiah" class="section accent-gold">
-      <div class="container">
-        <h2 class="section-title">PAPAN HADIAH</h2>
-        <p class="section-sub">Total pool: Rp1.250.000 + 1 jersey. Satu orang bisa menang di kedua fase!</p>
-        <h3 class="prize-group-title">Hadiah Fase Grup</h3>
-        <p class="prize-group-sub">Peringkat 1–3 klasemen gabungan 48 negara + 🍀 Lucky Spot untuk posisi 11, 26 &amp; 38 — semuanya ditentukan setelah fase grup selesai (27 Juni)</p>
-        <div class="prize-grid" id="prize-grid-grup"><!-- diisi JS --></div>
-        <div class="prize-grid prize-grid-lucky" id="prize-grid-lucky"><!-- diisi JS --></div>
-        <h3 class="prize-group-title">Hadiah Fase Knockout</h3>
-        <p class="prize-group-sub">4 negara yang lolos semifinal + sang juara dunia</p>
-        <div class="prize-grid" id="prize-grid-ko"><!-- diisi JS --></div>
-      </div>
-    </section>
 
     <!-- ===== KLASEMEN ===== -->
     <section id="klasemen" class="section accent-green">
@@ -127,6 +104,21 @@
         <p class="section-sub">48 negara, 48 pendukung dadakan. Cari nama lo di sini 👀</p>
         <input type="search" class="search-box" id="search-box" placeholder="Cari nama lo atau negara…" autocomplete="off">
         <div class="participant-grid" id="participant-grid"><!-- diisi JS --></div>
+      </div>
+    </section>
+
+    <!-- ===== PAPAN HADIAH ===== -->
+    <section id="hadiah" class="section accent-gold">
+      <div class="container">
+        <h2 class="section-title">PAPAN HADIAH</h2>
+        <p class="section-sub">Total pool: Rp1.250.000 + 1 jersey. Satu orang bisa menang di kedua fase!</p>
+        <h3 class="prize-group-title">Hadiah Fase Grup</h3>
+        <p class="prize-group-sub">Peringkat 1–3 klasemen gabungan 48 negara + 🍀 Lucky Spot untuk posisi 11, 26 &amp; 38 — semuanya ditentukan setelah fase grup selesai (27 Juni)</p>
+        <div class="prize-grid" id="prize-grid-grup"><!-- diisi JS --></div>
+        <div class="prize-grid prize-grid-lucky" id="prize-grid-lucky"><!-- diisi JS --></div>
+        <h3 class="prize-group-title">Hadiah Fase Knockout</h3>
+        <p class="prize-group-sub">4 negara yang lolos semifinal + sang juara dunia</p>
+        <div class="prize-grid" id="prize-grid-ko"><!-- diisi JS --></div>
       </div>
     </section>
 
