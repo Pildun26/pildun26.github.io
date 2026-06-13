@@ -43,9 +43,9 @@
     "HomeTeam": "USA",
     "AwayTeam": "Paraguay",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 1,
+    "Winner": "USA"
   },
   {
     "MatchNumber": 8,
