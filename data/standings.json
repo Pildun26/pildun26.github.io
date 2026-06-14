@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T22:52:55.892Z",
+  "generatedAt": "2026-06-14T02:33:49.686Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -41,7 +41,7 @@
       "rank": 3
     },
     {
-      "code": "SUI",
+      "code": "BRA",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -53,7 +53,7 @@
       "rank": 4
     },
     {
-      "code": "CAN",
+      "code": "MAR",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -65,7 +65,7 @@
       "rank": 5
     },
     {
-      "code": "QAT",
+      "code": "SUI",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -77,7 +77,7 @@
       "rank": 6
     },
     {
-      "code": "BIH",
+      "code": "CAN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -89,31 +89,31 @@
       "rank": 7
     },
     {
-      "code": "ESP",
-      "played": 0,
+      "code": "QAT",
+      "played": 1,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
-      "pts": 0,
+      "pts": 1,
       "rank": 8
     },
     {
-      "code": "ARG",
-      "played": 0,
+      "code": "BIH",
+      "played": 1,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
-      "pts": 0,
+      "pts": 1,
       "rank": 9
     },
     {
-      "code": "FRA",
+      "code": "ESP",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -125,7 +125,7 @@
       "rank": 10
     },
     {
-      "code": "ENG",
+      "code": "ARG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -137,7 +137,7 @@
       "rank": 11
     },
     {
-      "code": "BRA",
+      "code": "FRA",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -149,7 +149,7 @@
       "rank": 12
     },
     {
-      "code": "POR",
+      "code": "ENG",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -161,7 +161,7 @@
       "rank": 13
     },
     {
-      "code": "NED",
+      "code": "POR",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -173,7 +173,7 @@
       "rank": 14
     },
     {
-      "code": "BEL",
+      "code": "NED",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -185,7 +185,7 @@
       "rank": 15
     },
     {
-      "code": "GER",
+      "code": "BEL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -197,7 +197,7 @@
       "rank": 16
     },
     {
-      "code": "CRO",
+      "code": "GER",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -209,7 +209,7 @@
       "rank": 17
     },
     {
-      "code": "MAR",
+      "code": "CRO",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -689,8 +689,8 @@
       "away": "MAR",
       "homeRaw": "Brazil",
       "awayRaw": "Morocco",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "winner": null
     },
     {

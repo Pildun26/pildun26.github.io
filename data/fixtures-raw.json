@@ -67,9 +67,9 @@
     "HomeTeam": "Brazil",
     "AwayTeam": "Morocco",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 5,
