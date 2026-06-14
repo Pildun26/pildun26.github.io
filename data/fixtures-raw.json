@@ -103,9 +103,9 @@
     "HomeTeam": "Germany",
     "AwayTeam": "Curaçao",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 7,
+    "AwayTeamScore": 1,
+    "Winner": "Germany"
   },
   {
     "MatchNumber": 11,
@@ -115,9 +115,9 @@
     "HomeTeam": "Netherlands",
     "AwayTeam": "Japan",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 2,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 9,
