@@ -163,9 +163,9 @@
     "HomeTeam": "Belgium",
     "AwayTeam": "Egypt",
     "Group": "Group G",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 13,
