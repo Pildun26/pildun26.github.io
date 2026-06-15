@@ -127,9 +127,9 @@
     "HomeTeam": "Côte d'Ivoire",
     "AwayTeam": "Ecuador",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Côte d'Ivoire"
   },
   {
     "MatchNumber": 12,
@@ -139,9 +139,9 @@
     "HomeTeam": "Sweden",
     "AwayTeam": "Tunisia",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 5,
+    "AwayTeamScore": 1,
+    "Winner": "Sweden"
   },
   {
     "MatchNumber": 14,
