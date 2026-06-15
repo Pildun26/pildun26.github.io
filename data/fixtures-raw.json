@@ -151,9 +151,9 @@
     "HomeTeam": "Spain",
     "AwayTeam": "Cabo Verde",
     "Group": "Group H",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 16,
