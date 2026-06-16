@@ -187,9 +187,9 @@
     "HomeTeam": "IR Iran",
     "AwayTeam": "New Zealand",
     "Group": "Group G",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 2,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 17,
