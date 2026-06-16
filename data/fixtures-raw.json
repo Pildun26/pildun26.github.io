@@ -199,9 +199,9 @@
     "HomeTeam": "France",
     "AwayTeam": "Senegal",
     "Group": "Group I",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 1,
+    "Winner": "France"
   },
   {
     "MatchNumber": 18,
