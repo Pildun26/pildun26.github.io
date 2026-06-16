@@ -175,9 +175,9 @@
     "HomeTeam": "Saudi Arabia",
     "AwayTeam": "Uruguay",
     "Group": "Group H",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 15,

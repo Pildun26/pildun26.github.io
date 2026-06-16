@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T22:09:55.334Z",
+  "generatedAt": "2026-06-16T02:41:29.791Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -161,7 +161,7 @@
       "rank": 13
     },
     {
-      "code": "SUI",
+      "code": "URU",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -173,7 +173,7 @@
       "rank": 14
     },
     {
-      "code": "CAN",
+      "code": "SUI",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -185,7 +185,7 @@
       "rank": 15
     },
     {
-      "code": "EGY",
+      "code": "CAN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -197,7 +197,7 @@
       "rank": 16
     },
     {
-      "code": "QAT",
+      "code": "EGY",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -209,7 +209,7 @@
       "rank": 17
     },
     {
-      "code": "BIH",
+      "code": "QAT",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -221,6 +221,30 @@
       "rank": 18
     },
     {
+      "code": "KSA",
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1,
+      "rank": 19
+    },
+    {
+      "code": "BIH",
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1,
+      "rank": 20
+    },
+    {
       "code": "ESP",
       "played": 1,
       "w": 0,
@@ -230,7 +254,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 1,
-      "rank": 19
+      "rank": 21
     },
     {
       "code": "CPV",
@@ -242,7 +266,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 1,
-      "rank": 20
+      "rank": 22
     },
     {
       "code": "ARG",
@@ -254,7 +278,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 21
+      "rank": 23
     },
     {
       "code": "FRA",
@@ -266,7 +290,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 22
+      "rank": 24
     },
     {
       "code": "ENG",
@@ -278,7 +302,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 23
+      "rank": 25
     },
     {
       "code": "POR",
@@ -290,7 +314,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 24
+      "rank": 26
     },
     {
       "code": "CRO",
@@ -302,7 +326,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 25
+      "rank": 27
     },
     {
       "code": "COL",
@@ -314,19 +338,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 26
-    },
-    {
-      "code": "URU",
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
-      "rank": 27
+      "rank": 28
     },
     {
       "code": "SEN",
@@ -338,7 +350,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 28
+      "rank": 29
     },
     {
       "code": "IRN",
@@ -350,7 +362,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 29
+      "rank": 30
     },
     {
       "code": "AUT",
@@ -362,7 +374,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "code": "NOR",
@@ -374,7 +386,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "code": "PAN",
@@ -386,7 +398,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 32
+      "rank": 33
     },
     {
       "code": "ALG",
@@ -398,7 +410,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 33
+      "rank": 34
     },
     {
       "code": "UZB",
@@ -410,7 +422,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 34
+      "rank": 35
     },
     {
       "code": "COD",
@@ -422,22 +434,10 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 35
-    },
-    {
-      "code": "IRQ",
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
       "rank": 36
     },
     {
-      "code": "KSA",
+      "code": "IRQ",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -779,8 +779,8 @@
       "away": "URU",
       "homeRaw": "Saudi Arabia",
       "awayRaw": "Uruguay",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "winner": null
     },
     {
