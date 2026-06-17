@@ -223,9 +223,9 @@
     "HomeTeam": "Argentina",
     "AwayTeam": "Algeria",
     "Group": "Group J",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 0,
+    "Winner": "Argentina"
   },
   {
     "MatchNumber": 20,
@@ -235,9 +235,9 @@
     "HomeTeam": "Austria",
     "AwayTeam": "Jordan",
     "Group": "Group J",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 1,
+    "Winner": "Austria"
   },
   {
     "MatchNumber": 23,
