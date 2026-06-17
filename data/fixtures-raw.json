@@ -211,9 +211,9 @@
     "HomeTeam": "Iraq",
     "AwayTeam": "Norway",
     "Group": "Group I",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 4,
+    "Winner": "Norway"
   },
   {
     "MatchNumber": 19,
