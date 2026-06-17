@@ -259,9 +259,9 @@
     "HomeTeam": "England",
     "AwayTeam": "Croatia",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 2,
+    "Winner": "England"
   },
   {
     "MatchNumber": 21,
