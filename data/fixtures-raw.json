@@ -247,9 +247,9 @@
     "HomeTeam": "Portugal",
     "AwayTeam": "Congo DR",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 22,

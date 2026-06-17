@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T19:57:25.417Z",
+  "generatedAt": "2026-06-17T21:57:03.406Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -209,7 +209,7 @@
       "rank": 17
     },
     {
-      "code": "BEL",
+      "code": "POR",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -221,7 +221,7 @@
       "rank": 18
     },
     {
-      "code": "MAR",
+      "code": "BEL",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -233,7 +233,7 @@
       "rank": 19
     },
     {
-      "code": "URU",
+      "code": "MAR",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -245,7 +245,7 @@
       "rank": 20
     },
     {
-      "code": "SUI",
+      "code": "URU",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -257,7 +257,7 @@
       "rank": 21
     },
     {
-      "code": "CAN",
+      "code": "SUI",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -269,7 +269,7 @@
       "rank": 22
     },
     {
-      "code": "EGY",
+      "code": "CAN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -281,7 +281,7 @@
       "rank": 23
     },
     {
-      "code": "QAT",
+      "code": "EGY",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -293,7 +293,7 @@
       "rank": 24
     },
     {
-      "code": "KSA",
+      "code": "QAT",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -305,7 +305,7 @@
       "rank": 25
     },
     {
-      "code": "BIH",
+      "code": "COD",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -317,6 +317,30 @@
       "rank": 26
     },
     {
+      "code": "KSA",
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1,
+      "rank": 27
+    },
+    {
+      "code": "BIH",
+      "played": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "pts": 1,
+      "rank": 28
+    },
+    {
       "code": "ESP",
       "played": 1,
       "w": 0,
@@ -326,7 +350,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 1,
-      "rank": 27
+      "rank": 29
     },
     {
       "code": "CPV",
@@ -338,7 +362,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 1,
-      "rank": 28
+      "rank": 30
     },
     {
       "code": "ENG",
@@ -350,19 +374,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 29
-    },
-    {
-      "code": "POR",
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
-      "rank": 30
+      "rank": 31
     },
     {
       "code": "CRO",
@@ -374,7 +386,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 31
+      "rank": 32
     },
     {
       "code": "COL",
@@ -386,7 +398,7 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 32
+      "rank": 33
     },
     {
       "code": "PAN",
@@ -398,22 +410,10 @@
       "ga": 0,
       "gd": 0,
       "pts": 0,
-      "rank": 33
-    },
-    {
-      "code": "UZB",
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
       "rank": 34
     },
     {
-      "code": "COD",
+      "code": "UZB",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -929,8 +929,8 @@
       "away": "COD",
       "homeRaw": "Portugal",
       "awayRaw": "Congo DR",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 1,
       "winner": null
     },
     {
