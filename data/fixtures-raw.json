@@ -295,9 +295,9 @@
     "HomeTeam": "Czechia",
     "AwayTeam": "South Africa",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 26,
