@@ -271,9 +271,9 @@
     "HomeTeam": "Ghana",
     "AwayTeam": "Panama",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Ghana"
   },
   {
     "MatchNumber": 24,

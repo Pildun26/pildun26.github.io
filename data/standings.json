@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T23:19:02.979Z",
+  "generatedAt": "2026-06-18T02:35:21.638Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -161,19 +161,19 @@
       "rank": 13
     },
     {
-      "code": "NED",
+      "code": "GHA",
       "played": 1,
-      "w": 0,
-      "d": 1,
+      "w": 1,
+      "d": 0,
       "l": 0,
-      "gf": 2,
-      "ga": 2,
-      "gd": 0,
-      "pts": 1,
+      "gf": 1,
+      "ga": 0,
+      "gd": 1,
+      "pts": 3,
       "rank": 14
     },
     {
-      "code": "JPN",
+      "code": "NED",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -185,7 +185,7 @@
       "rank": 15
     },
     {
-      "code": "IRN",
+      "code": "JPN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -197,7 +197,7 @@
       "rank": 16
     },
     {
-      "code": "NZL",
+      "code": "IRN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -209,19 +209,19 @@
       "rank": 17
     },
     {
-      "code": "BRA",
+      "code": "NZL",
       "played": 1,
       "w": 0,
       "d": 1,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 2,
+      "ga": 2,
       "gd": 0,
       "pts": 1,
       "rank": 18
     },
     {
-      "code": "POR",
+      "code": "BRA",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -233,7 +233,7 @@
       "rank": 19
     },
     {
-      "code": "BEL",
+      "code": "POR",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -245,7 +245,7 @@
       "rank": 20
     },
     {
-      "code": "MAR",
+      "code": "BEL",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -257,7 +257,7 @@
       "rank": 21
     },
     {
-      "code": "URU",
+      "code": "MAR",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -269,7 +269,7 @@
       "rank": 22
     },
     {
-      "code": "SUI",
+      "code": "URU",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -281,7 +281,7 @@
       "rank": 23
     },
     {
-      "code": "CAN",
+      "code": "SUI",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -293,7 +293,7 @@
       "rank": 24
     },
     {
-      "code": "EGY",
+      "code": "CAN",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -305,7 +305,7 @@
       "rank": 25
     },
     {
-      "code": "QAT",
+      "code": "EGY",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -317,7 +317,7 @@
       "rank": 26
     },
     {
-      "code": "COD",
+      "code": "QAT",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -329,7 +329,7 @@
       "rank": 27
     },
     {
-      "code": "KSA",
+      "code": "COD",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -341,7 +341,7 @@
       "rank": 28
     },
     {
-      "code": "BIH",
+      "code": "KSA",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -353,19 +353,19 @@
       "rank": 29
     },
     {
-      "code": "ESP",
+      "code": "BIH",
       "played": 1,
       "w": 0,
       "d": 1,
       "l": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
       "pts": 1,
       "rank": 30
     },
     {
-      "code": "CPV",
+      "code": "ESP",
       "played": 1,
       "w": 0,
       "d": 1,
@@ -377,19 +377,19 @@
       "rank": 31
     },
     {
-      "code": "COL",
-      "played": 0,
+      "code": "CPV",
+      "played": 1,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 0,
       "gf": 0,
       "ga": 0,
       "gd": 0,
-      "pts": 0,
+      "pts": 1,
       "rank": 32
     },
     {
-      "code": "PAN",
+      "code": "COL",
       "played": 0,
       "w": 0,
       "d": 0,
@@ -413,18 +413,6 @@
       "rank": 34
     },
     {
-      "code": "GHA",
-      "played": 0,
-      "w": 0,
-      "d": 0,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "pts": 0,
-      "rank": 35
-    },
-    {
       "code": "CZE",
       "played": 1,
       "w": 0,
@@ -434,10 +422,22 @@
       "ga": 2,
       "gd": -1,
       "pts": 0,
-      "rank": 36
+      "rank": 35
     },
     {
       "code": "ECU",
+      "played": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "gd": -1,
+      "pts": 0,
+      "rank": 36
+    },
+    {
+      "code": "PAN",
       "played": 1,
       "w": 0,
       "d": 0,
@@ -899,8 +899,8 @@
       "away": "PAN",
       "homeRaw": "Ghana",
       "awayRaw": "Panama",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 0,
       "winner": null
     },
     {
