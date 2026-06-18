@@ -283,9 +283,9 @@
     "HomeTeam": "Uzbekistan",
     "AwayTeam": "Colombia",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 3,
+    "Winner": "Colombia"
   },
   {
     "MatchNumber": 25,
