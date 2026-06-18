@@ -307,9 +307,9 @@
     "HomeTeam": "Switzerland",
     "AwayTeam": "Bosnia and Herzegovina",
     "Group": "Group B",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 1,
+    "Winner": "Switzerland"
   },
   {
     "MatchNumber": 27,
