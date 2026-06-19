@@ -343,9 +343,9 @@
     "HomeTeam": "USA",
     "AwayTeam": "Australia",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 0,
+    "Winner": "USA"
   },
   {
     "MatchNumber": 30,
