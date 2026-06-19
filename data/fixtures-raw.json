@@ -331,9 +331,9 @@
     "HomeTeam": "Mexico",
     "AwayTeam": "Korea Republic",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Mexico"
   },
   {
     "MatchNumber": 32,
