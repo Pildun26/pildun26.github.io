@@ -403,9 +403,9 @@
     "HomeTeam": "Germany",
     "AwayTeam": "Côte d'Ivoire",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Germany"
   },
   {
     "MatchNumber": 34,

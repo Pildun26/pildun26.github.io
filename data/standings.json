@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-06-20T21:03:03.229Z",
+  "generatedAt": "2026-06-20T22:57:33.069Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
   "league": [
+    {
+      "code": "GER",
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 9,
+      "ga": 2,
+      "gd": 7,
+      "pts": 6,
+      "rank": 1
+    },
     {
       "code": "USA",
       "played": 2,
@@ -14,7 +26,7 @@
       "ga": 1,
       "gd": 5,
       "pts": 6,
-      "rank": 1
+      "rank": 2
     },
     {
       "code": "MEX",
@@ -26,7 +38,7 @@
       "ga": 0,
       "gd": 3,
       "pts": 6,
-      "rank": 2
+      "rank": 3
     },
     {
       "code": "CAN",
@@ -38,7 +50,7 @@
       "ga": 1,
       "gd": 6,
       "pts": 4,
-      "rank": 3
+      "rank": 4
     },
     {
       "code": "NED",
@@ -50,7 +62,7 @@
       "ga": 3,
       "gd": 4,
       "pts": 4,
-      "rank": 4
+      "rank": 5
     },
     {
       "code": "SUI",
@@ -62,7 +74,7 @@
       "ga": 2,
       "gd": 3,
       "pts": 4,
-      "rank": 5
+      "rank": 6
     },
     {
       "code": "BRA",
@@ -74,7 +86,7 @@
       "ga": 1,
       "gd": 3,
       "pts": 4,
-      "rank": 6
+      "rank": 7
     },
     {
       "code": "MAR",
@@ -86,18 +98,6 @@
       "ga": 1,
       "gd": 1,
       "pts": 4,
-      "rank": 7
-    },
-    {
-      "code": "GER",
-      "played": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 7,
-      "ga": 1,
-      "gd": 6,
-      "pts": 3,
       "rank": 8
     },
     {
@@ -173,7 +173,7 @@
       "rank": 14
     },
     {
-      "code": "CIV",
+      "code": "GHA",
       "played": 1,
       "w": 1,
       "d": 0,
@@ -185,18 +185,6 @@
       "rank": 15
     },
     {
-      "code": "GHA",
-      "played": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "gd": 1,
-      "pts": 3,
-      "rank": 16
-    },
-    {
       "code": "SWE",
       "played": 2,
       "w": 1,
@@ -206,7 +194,7 @@
       "ga": 6,
       "gd": 0,
       "pts": 3,
-      "rank": 17
+      "rank": 16
     },
     {
       "code": "KOR",
@@ -218,10 +206,22 @@
       "ga": 2,
       "gd": 0,
       "pts": 3,
-      "rank": 18
+      "rank": 17
     },
     {
       "code": "AUS",
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
+      "pts": 3,
+      "rank": 18
+    },
+    {
+      "code": "CIV",
       "played": 2,
       "w": 1,
       "d": 0,
@@ -1079,8 +1079,8 @@
       "away": "CIV",
       "homeRaw": "Germany",
       "awayRaw": "Côte d'Ivoire",
-      "hs": null,
-      "as": null,
+      "hs": 2,
+      "as": 1,
       "winner": null
     },
     {
