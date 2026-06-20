@@ -391,9 +391,9 @@
     "HomeTeam": "Netherlands",
     "AwayTeam": "Sweden",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 5,
+    "AwayTeamScore": 1,
+    "Winner": "Netherlands"
   },
   {
     "MatchNumber": 33,
