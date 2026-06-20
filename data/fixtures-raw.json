@@ -355,33 +355,33 @@
     "HomeTeam": "Scotland",
     "AwayTeam": "Morocco",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "Morocco"
   },
   {
     "MatchNumber": 29,
     "RoundNumber": 2,
-    "DateUtc": "2026-06-20 01:00:00Z",
+    "DateUtc": "2026-06-20 00:30:00Z",
     "Location": "Philadelphia Stadium",
     "HomeTeam": "Brazil",
     "AwayTeam": "Haiti",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 0,
+    "Winner": "Brazil"
   },
   {
     "MatchNumber": 31,
     "RoundNumber": 2,
-    "DateUtc": "2026-06-20 04:00:00Z",
+    "DateUtc": "2026-06-20 03:00:00Z",
     "Location": "San Francisco Bay Area Stadium",
     "HomeTeam": "Türkiye",
     "AwayTeam": "Paraguay",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "Paraguay"
   },
   {
     "MatchNumber": 35,
@@ -940,7 +940,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-07-01 01:00:00Z",
     "Location": "Mexico City Stadium",
-    "HomeTeam": "1A",
+    "HomeTeam": "Mexico",
     "AwayTeam": "3CEFHI",
     "Group": null,
     "HomeTeamScore": null,
@@ -976,7 +976,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-07-02 00:00:00Z",
     "Location": "San Francisco Bay Area Stadium",
-    "HomeTeam": "1D",
+    "HomeTeam": "USA",
     "AwayTeam": "3BEFIJ",
     "Group": null,
     "HomeTeamScore": null,
