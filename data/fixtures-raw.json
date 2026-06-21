@@ -451,9 +451,9 @@
     "HomeTeam": "Belgium",
     "AwayTeam": "IR Iran",
     "Group": "Group G",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 37,
