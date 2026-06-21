@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:57:33.069Z",
+  "generatedAt": "2026-06-21T02:37:04.344Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -401,6 +401,18 @@
       "rank": 33
     },
     {
+      "code": "ECU",
+      "played": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "gd": -1,
+      "pts": 1,
+      "rank": 34
+    },
+    {
       "code": "RSA",
       "played": 2,
       "w": 0,
@@ -410,7 +422,7 @@
       "ga": 3,
       "gd": -2,
       "pts": 1,
-      "rank": 34
+      "rank": 35
     },
     {
       "code": "BIH",
@@ -422,7 +434,7 @@
       "ga": 5,
       "gd": -3,
       "pts": 1,
-      "rank": 35
+      "rank": 36
     },
     {
       "code": "QAT",
@@ -434,19 +446,19 @@
       "ga": 7,
       "gd": -6,
       "pts": 1,
-      "rank": 36
+      "rank": 37
     },
     {
-      "code": "ECU",
-      "played": 1,
+      "code": "CUW",
+      "played": 2,
       "w": 0,
-      "d": 0,
+      "d": 1,
       "l": 1,
-      "gf": 0,
-      "ga": 1,
-      "gd": -1,
-      "pts": 0,
-      "rank": 37
+      "gf": 1,
+      "ga": 7,
+      "gd": -6,
+      "pts": 1,
+      "rank": 38
     },
     {
       "code": "PAN",
@@ -458,7 +470,7 @@
       "ga": 1,
       "gd": -1,
       "pts": 0,
-      "rank": 38
+      "rank": 39
     },
     {
       "code": "CRO",
@@ -470,7 +482,7 @@
       "ga": 4,
       "gd": -2,
       "pts": 0,
-      "rank": 39
+      "rank": 40
     },
     {
       "code": "SEN",
@@ -482,7 +494,7 @@
       "ga": 3,
       "gd": -2,
       "pts": 0,
-      "rank": 40
+      "rank": 41
     },
     {
       "code": "UZB",
@@ -494,7 +506,7 @@
       "ga": 3,
       "gd": -2,
       "pts": 0,
-      "rank": 41
+      "rank": 42
     },
     {
       "code": "JOR",
@@ -506,7 +518,7 @@
       "ga": 3,
       "gd": -2,
       "pts": 0,
-      "rank": 42
+      "rank": 43
     },
     {
       "code": "IRQ",
@@ -518,7 +530,7 @@
       "ga": 4,
       "gd": -3,
       "pts": 0,
-      "rank": 43
+      "rank": 44
     },
     {
       "code": "TUR",
@@ -530,7 +542,7 @@
       "ga": 3,
       "gd": -3,
       "pts": 0,
-      "rank": 44
+      "rank": 45
     },
     {
       "code": "ALG",
@@ -542,7 +554,7 @@
       "ga": 3,
       "gd": -3,
       "pts": 0,
-      "rank": 45
+      "rank": 46
     },
     {
       "code": "TUN",
@@ -554,7 +566,7 @@
       "ga": 5,
       "gd": -4,
       "pts": 0,
-      "rank": 46
+      "rank": 47
     },
     {
       "code": "HAI",
@@ -565,18 +577,6 @@
       "gf": 0,
       "ga": 4,
       "gd": -4,
-      "pts": 0,
-      "rank": 47
-    },
-    {
-      "code": "CUW",
-      "played": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 7,
-      "gd": -6,
       "pts": 0,
       "rank": 48
     }
@@ -1094,8 +1094,8 @@
       "away": "CUW",
       "homeRaw": "Ecuador",
       "awayRaw": "Curaçao",
-      "hs": null,
-      "as": null,
+      "hs": 0,
+      "as": 0,
       "winner": null
     },
     {

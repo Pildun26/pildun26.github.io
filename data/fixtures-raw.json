@@ -415,9 +415,9 @@
     "HomeTeam": "Ecuador",
     "AwayTeam": "Curaçao",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 36,
