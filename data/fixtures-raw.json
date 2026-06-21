@@ -439,9 +439,9 @@
     "HomeTeam": "Spain",
     "AwayTeam": "Saudi Arabia",
     "Group": "Group H",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 0,
+    "Winner": "Spain"
   },
   {
     "MatchNumber": 39,
