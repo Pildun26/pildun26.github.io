@@ -427,9 +427,9 @@
     "HomeTeam": "Tunisia",
     "AwayTeam": "Japan",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 4,
+    "Winner": "Japan"
   },
   {
     "MatchNumber": 38,
@@ -892,7 +892,7 @@
     "RoundNumber": 4,
     "DateUtc": "2026-06-29 20:30:00Z",
     "Location": "Boston Stadium",
-    "HomeTeam": "1E",
+    "HomeTeam": "Germany",
     "AwayTeam": "3ABCDF",
     "Group": null,
     "HomeTeamScore": null,

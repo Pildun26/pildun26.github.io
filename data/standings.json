@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T02:37:04.344Z",
+  "generatedAt": "2026-06-21T08:20:09.783Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -65,6 +65,18 @@
       "rank": 5
     },
     {
+      "code": "JPN",
+      "played": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 6,
+      "ga": 2,
+      "gd": 4,
+      "pts": 4,
+      "rank": 6
+    },
+    {
       "code": "SUI",
       "played": 2,
       "w": 1,
@@ -74,7 +86,7 @@
       "ga": 2,
       "gd": 3,
       "pts": 4,
-      "rank": 6
+      "rank": 7
     },
     {
       "code": "BRA",
@@ -86,7 +98,7 @@
       "ga": 1,
       "gd": 3,
       "pts": 4,
-      "rank": 7
+      "rank": 8
     },
     {
       "code": "MAR",
@@ -98,7 +110,7 @@
       "ga": 1,
       "gd": 1,
       "pts": 4,
-      "rank": 8
+      "rank": 9
     },
     {
       "code": "NOR",
@@ -110,7 +122,7 @@
       "ga": 1,
       "gd": 3,
       "pts": 3,
-      "rank": 9
+      "rank": 10
     },
     {
       "code": "ARG",
@@ -122,7 +134,7 @@
       "ga": 0,
       "gd": 3,
       "pts": 3,
-      "rank": 10
+      "rank": 11
     },
     {
       "code": "ENG",
@@ -134,7 +146,7 @@
       "ga": 2,
       "gd": 2,
       "pts": 3,
-      "rank": 11
+      "rank": 12
     },
     {
       "code": "FRA",
@@ -146,7 +158,7 @@
       "ga": 1,
       "gd": 2,
       "pts": 3,
-      "rank": 12
+      "rank": 13
     },
     {
       "code": "COL",
@@ -158,7 +170,7 @@
       "ga": 1,
       "gd": 2,
       "pts": 3,
-      "rank": 13
+      "rank": 14
     },
     {
       "code": "AUT",
@@ -170,7 +182,7 @@
       "ga": 1,
       "gd": 2,
       "pts": 3,
-      "rank": 14
+      "rank": 15
     },
     {
       "code": "GHA",
@@ -182,7 +194,7 @@
       "ga": 0,
       "gd": 1,
       "pts": 3,
-      "rank": 15
+      "rank": 16
     },
     {
       "code": "SWE",
@@ -194,7 +206,7 @@
       "ga": 6,
       "gd": 0,
       "pts": 3,
-      "rank": 16
+      "rank": 17
     },
     {
       "code": "KOR",
@@ -206,7 +218,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 3,
-      "rank": 17
+      "rank": 18
     },
     {
       "code": "AUS",
@@ -218,7 +230,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 3,
-      "rank": 18
+      "rank": 19
     },
     {
       "code": "CIV",
@@ -230,7 +242,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 3,
-      "rank": 19
+      "rank": 20
     },
     {
       "code": "SCO",
@@ -242,7 +254,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 3,
-      "rank": 20
+      "rank": 21
     },
     {
       "code": "PAR",
@@ -254,18 +266,6 @@
       "ga": 4,
       "gd": -2,
       "pts": 3,
-      "rank": 21
-    },
-    {
-      "code": "JPN",
-      "played": 1,
-      "w": 0,
-      "d": 1,
-      "l": 0,
-      "gf": 2,
-      "ga": 2,
-      "gd": 0,
-      "pts": 1,
       "rank": 22
     },
     {
@@ -557,18 +557,6 @@
       "rank": 46
     },
     {
-      "code": "TUN",
-      "played": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 5,
-      "gd": -4,
-      "pts": 0,
-      "rank": 47
-    },
-    {
       "code": "HAI",
       "played": 2,
       "w": 0,
@@ -577,6 +565,18 @@
       "gf": 0,
       "ga": 4,
       "gd": -4,
+      "pts": 0,
+      "rank": 47
+    },
+    {
+      "code": "TUN",
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 9,
+      "gd": -8,
       "pts": 0,
       "rank": 48
     }
@@ -1124,8 +1124,8 @@
       "away": "JPN",
       "homeRaw": "Tunisia",
       "awayRaw": "Japan",
-      "hs": null,
-      "as": null,
+      "hs": 0,
+      "as": 4,
       "winner": null
     },
     {
@@ -1690,9 +1690,9 @@
       "date": "2026-06-29T20:30:00Z",
       "venue": "Boston Stadium",
       "group": null,
-      "home": null,
+      "home": "GER",
       "away": null,
-      "homeRaw": "1E",
+      "homeRaw": "Germany",
       "awayRaw": "3ABCDF",
       "hs": null,
       "as": null,
