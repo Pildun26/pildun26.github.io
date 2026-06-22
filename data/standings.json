@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:59:17.492Z",
+  "generatedAt": "2026-06-22T02:40:16.955Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -281,6 +281,18 @@
       "rank": 23
     },
     {
+      "code": "URU",
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 3,
+      "ga": 3,
+      "gd": 0,
+      "pts": 2,
+      "rank": 24
+    },
+    {
       "code": "IRN",
       "played": 2,
       "w": 0,
@@ -290,7 +302,19 @@
       "ga": 2,
       "gd": 0,
       "pts": 2,
-      "rank": 24
+      "rank": 25
+    },
+    {
+      "code": "CPV",
+      "played": 2,
+      "w": 0,
+      "d": 2,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
+      "pts": 2,
+      "rank": 26
     },
     {
       "code": "BEL",
@@ -302,7 +326,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 2,
-      "rank": 25
+      "rank": 27
     },
     {
       "code": "NZL",
@@ -314,7 +338,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 1,
-      "rank": 26
+      "rank": 28
     },
     {
       "code": "POR",
@@ -326,19 +350,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 1,
-      "rank": 27
-    },
-    {
-      "code": "URU",
-      "played": 1,
-      "w": 0,
-      "d": 1,
-      "l": 0,
-      "gf": 1,
-      "ga": 1,
-      "gd": 0,
-      "pts": 1,
-      "rank": 28
+      "rank": 29
     },
     {
       "code": "EGY",
@@ -350,7 +362,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 1,
-      "rank": 29
+      "rank": 30
     },
     {
       "code": "COD",
@@ -360,18 +372,6 @@
       "l": 0,
       "gf": 1,
       "ga": 1,
-      "gd": 0,
-      "pts": 1,
-      "rank": 30
-    },
-    {
-      "code": "CPV",
-      "played": 1,
-      "w": 0,
-      "d": 1,
-      "l": 0,
-      "gf": 0,
-      "ga": 0,
       "gd": 0,
       "pts": 1,
       "rank": 31
@@ -1139,8 +1139,8 @@
       "away": "CPV",
       "homeRaw": "Uruguay",
       "awayRaw": "Cabo Verde",
-      "hs": null,
-      "as": null,
+      "hs": 2,
+      "as": 2,
       "winner": null
     },
     {

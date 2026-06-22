@@ -463,9 +463,9 @@
     "HomeTeam": "Uruguay",
     "AwayTeam": "Cabo Verde",
     "Group": "Group H",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 2,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 40,
