@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T19:17:34.244Z",
+  "generatedAt": "2026-06-22T21:54:36.089Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -29,6 +29,18 @@
       "rank": 2
     },
     {
+      "code": "ARG",
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 5,
+      "ga": 0,
+      "gd": 5,
+      "pts": 6,
+      "rank": 3
+    },
+    {
       "code": "MEX",
       "played": 2,
       "w": 2,
@@ -38,7 +50,7 @@
       "ga": 0,
       "gd": 3,
       "pts": 6,
-      "rank": 3
+      "rank": 4
     },
     {
       "code": "CAN",
@@ -50,7 +62,7 @@
       "ga": 1,
       "gd": 6,
       "pts": 4,
-      "rank": 4
+      "rank": 5
     },
     {
       "code": "NED",
@@ -62,7 +74,7 @@
       "ga": 3,
       "gd": 4,
       "pts": 4,
-      "rank": 5
+      "rank": 6
     },
     {
       "code": "JPN",
@@ -74,7 +86,7 @@
       "ga": 2,
       "gd": 4,
       "pts": 4,
-      "rank": 6
+      "rank": 7
     },
     {
       "code": "ESP",
@@ -86,7 +98,7 @@
       "ga": 0,
       "gd": 4,
       "pts": 4,
-      "rank": 7
+      "rank": 8
     },
     {
       "code": "SUI",
@@ -98,7 +110,7 @@
       "ga": 2,
       "gd": 3,
       "pts": 4,
-      "rank": 8
+      "rank": 9
     },
     {
       "code": "BRA",
@@ -110,7 +122,7 @@
       "ga": 1,
       "gd": 3,
       "pts": 4,
-      "rank": 9
+      "rank": 10
     },
     {
       "code": "EGY",
@@ -122,7 +134,7 @@
       "ga": 2,
       "gd": 2,
       "pts": 4,
-      "rank": 10
+      "rank": 11
     },
     {
       "code": "MAR",
@@ -134,7 +146,7 @@
       "ga": 1,
       "gd": 1,
       "pts": 4,
-      "rank": 11
+      "rank": 12
     },
     {
       "code": "NOR",
@@ -144,18 +156,6 @@
       "l": 0,
       "gf": 4,
       "ga": 1,
-      "gd": 3,
-      "pts": 3,
-      "rank": 12
-    },
-    {
-      "code": "ARG",
-      "played": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 3,
-      "ga": 0,
       "gd": 3,
       "pts": 3,
       "rank": 13
@@ -197,18 +197,6 @@
       "rank": 16
     },
     {
-      "code": "AUT",
-      "played": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 3,
-      "ga": 1,
-      "gd": 2,
-      "pts": 3,
-      "rank": 17
-    },
-    {
       "code": "GHA",
       "played": 1,
       "w": 1,
@@ -218,7 +206,7 @@
       "ga": 0,
       "gd": 1,
       "pts": 3,
-      "rank": 18
+      "rank": 17
     },
     {
       "code": "SWE",
@@ -228,6 +216,18 @@
       "l": 1,
       "gf": 6,
       "ga": 6,
+      "gd": 0,
+      "pts": 3,
+      "rank": 18
+    },
+    {
+      "code": "AUT",
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 3,
       "gd": 0,
       "pts": 3,
       "rank": 19
@@ -1229,8 +1229,8 @@
       "away": "AUT",
       "homeRaw": "Argentina",
       "awayRaw": "Austria",
-      "hs": null,
-      "as": null,
+      "hs": 2,
+      "as": 0,
       "winner": null
     },
     {
