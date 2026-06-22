@@ -475,9 +475,9 @@
     "HomeTeam": "New Zealand",
     "AwayTeam": "Egypt",
     "Group": "Group G",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 3,
+    "Winner": "Egypt"
   },
   {
     "MatchNumber": 43,
