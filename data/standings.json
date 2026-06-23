@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T02:06:44.161Z",
+  "generatedAt": "2026-06-23T07:37:50.992Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "liga",
   "groupComplete": false,
@@ -53,6 +53,18 @@
       "rank": 4
     },
     {
+      "code": "NOR",
+      "played": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 7,
+      "ga": 3,
+      "gd": 4,
+      "pts": 6,
+      "rank": 5
+    },
+    {
       "code": "MEX",
       "played": 2,
       "w": 2,
@@ -62,7 +74,7 @@
       "ga": 0,
       "gd": 3,
       "pts": 6,
-      "rank": 5
+      "rank": 6
     },
     {
       "code": "CAN",
@@ -74,7 +86,7 @@
       "ga": 1,
       "gd": 6,
       "pts": 4,
-      "rank": 6
+      "rank": 7
     },
     {
       "code": "NED",
@@ -86,7 +98,7 @@
       "ga": 3,
       "gd": 4,
       "pts": 4,
-      "rank": 7
+      "rank": 8
     },
     {
       "code": "JPN",
@@ -98,7 +110,7 @@
       "ga": 2,
       "gd": 4,
       "pts": 4,
-      "rank": 8
+      "rank": 9
     },
     {
       "code": "ESP",
@@ -110,7 +122,7 @@
       "ga": 0,
       "gd": 4,
       "pts": 4,
-      "rank": 9
+      "rank": 10
     },
     {
       "code": "SUI",
@@ -122,7 +134,7 @@
       "ga": 2,
       "gd": 3,
       "pts": 4,
-      "rank": 10
+      "rank": 11
     },
     {
       "code": "BRA",
@@ -134,7 +146,7 @@
       "ga": 1,
       "gd": 3,
       "pts": 4,
-      "rank": 11
+      "rank": 12
     },
     {
       "code": "EGY",
@@ -146,7 +158,7 @@
       "ga": 2,
       "gd": 2,
       "pts": 4,
-      "rank": 12
+      "rank": 13
     },
     {
       "code": "MAR",
@@ -158,18 +170,6 @@
       "ga": 1,
       "gd": 1,
       "pts": 4,
-      "rank": 13
-    },
-    {
-      "code": "NOR",
-      "played": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 4,
-      "ga": 1,
-      "gd": 3,
-      "pts": 3,
       "rank": 14
     },
     {
@@ -281,7 +281,7 @@
       "rank": 23
     },
     {
-      "code": "PAR",
+      "code": "ALG",
       "played": 2,
       "w": 1,
       "d": 0,
@@ -293,6 +293,18 @@
       "rank": 24
     },
     {
+      "code": "PAR",
+      "played": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "gd": -2,
+      "pts": 3,
+      "rank": 25
+    },
+    {
       "code": "URU",
       "played": 2,
       "w": 0,
@@ -302,7 +314,7 @@
       "ga": 3,
       "gd": 0,
       "pts": 2,
-      "rank": 25
+      "rank": 26
     },
     {
       "code": "IRN",
@@ -314,7 +326,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 2,
-      "rank": 26
+      "rank": 27
     },
     {
       "code": "CPV",
@@ -326,7 +338,7 @@
       "ga": 2,
       "gd": 0,
       "pts": 2,
-      "rank": 27
+      "rank": 28
     },
     {
       "code": "BEL",
@@ -338,7 +350,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 2,
-      "rank": 28
+      "rank": 29
     },
     {
       "code": "POR",
@@ -350,7 +362,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 1,
-      "rank": 29
+      "rank": 30
     },
     {
       "code": "COD",
@@ -362,7 +374,7 @@
       "ga": 1,
       "gd": 0,
       "pts": 1,
-      "rank": 30
+      "rank": 31
     },
     {
       "code": "CZE",
@@ -374,7 +386,7 @@
       "ga": 3,
       "gd": -1,
       "pts": 1,
-      "rank": 31
+      "rank": 32
     },
     {
       "code": "ECU",
@@ -386,7 +398,7 @@
       "ga": 1,
       "gd": -1,
       "pts": 1,
-      "rank": 32
+      "rank": 33
     },
     {
       "code": "NZL",
@@ -398,7 +410,7 @@
       "ga": 5,
       "gd": -2,
       "pts": 1,
-      "rank": 33
+      "rank": 34
     },
     {
       "code": "RSA",
@@ -410,7 +422,7 @@
       "ga": 3,
       "gd": -2,
       "pts": 1,
-      "rank": 34
+      "rank": 35
     },
     {
       "code": "BIH",
@@ -422,7 +434,7 @@
       "ga": 5,
       "gd": -3,
       "pts": 1,
-      "rank": 35
+      "rank": 36
     },
     {
       "code": "KSA",
@@ -434,7 +446,7 @@
       "ga": 5,
       "gd": -4,
       "pts": 1,
-      "rank": 36
+      "rank": 37
     },
     {
       "code": "QAT",
@@ -446,7 +458,7 @@
       "ga": 7,
       "gd": -6,
       "pts": 1,
-      "rank": 37
+      "rank": 38
     },
     {
       "code": "CUW",
@@ -458,7 +470,7 @@
       "ga": 7,
       "gd": -6,
       "pts": 1,
-      "rank": 38
+      "rank": 39
     },
     {
       "code": "PAN",
@@ -470,7 +482,7 @@
       "ga": 1,
       "gd": -1,
       "pts": 0,
-      "rank": 39
+      "rank": 40
     },
     {
       "code": "CRO",
@@ -480,18 +492,6 @@
       "l": 1,
       "gf": 2,
       "ga": 4,
-      "gd": -2,
-      "pts": 0,
-      "rank": 40
-    },
-    {
-      "code": "SEN",
-      "played": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 3,
       "gd": -2,
       "pts": 0,
       "rank": 41
@@ -509,16 +509,28 @@
       "rank": 42
     },
     {
-      "code": "JOR",
-      "played": 1,
+      "code": "SEN",
+      "played": 2,
       "w": 0,
       "d": 0,
-      "l": 1,
-      "gf": 1,
-      "ga": 3,
-      "gd": -2,
+      "l": 2,
+      "gf": 3,
+      "ga": 6,
+      "gd": -3,
       "pts": 0,
       "rank": 43
+    },
+    {
+      "code": "JOR",
+      "played": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 2,
+      "ga": 5,
+      "gd": -3,
+      "pts": 0,
+      "rank": 44
     },
     {
       "code": "TUR",
@@ -526,18 +538,6 @@
       "w": 0,
       "d": 0,
       "l": 2,
-      "gf": 0,
-      "ga": 3,
-      "gd": -3,
-      "pts": 0,
-      "rank": 44
-    },
-    {
-      "code": "ALG",
-      "played": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
       "gf": 0,
       "ga": 3,
       "gd": -3,
@@ -1199,8 +1199,8 @@
       "away": "SEN",
       "homeRaw": "Norway",
       "awayRaw": "Senegal",
-      "hs": null,
-      "as": null,
+      "hs": 3,
+      "as": 2,
       "winner": null
     },
     {
@@ -1244,8 +1244,8 @@
       "away": "ALG",
       "homeRaw": "Jordan",
       "awayRaw": "Algeria",
-      "hs": null,
-      "as": null,
+      "hs": 1,
+      "as": 2,
       "winner": null
     },
     {
