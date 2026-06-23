@@ -499,9 +499,9 @@
     "HomeTeam": "France",
     "AwayTeam": "Iraq",
     "Group": "Group I",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 0,
+    "Winner": "France"
   },
   {
     "MatchNumber": 41,
