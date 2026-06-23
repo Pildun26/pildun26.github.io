@@ -535,9 +535,9 @@
     "HomeTeam": "Portugal",
     "AwayTeam": "Uzbekistan",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 5,
+    "AwayTeamScore": 0,
+    "Winner": "Portugal"
   },
   {
     "MatchNumber": 45,
