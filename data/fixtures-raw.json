@@ -547,9 +547,9 @@
     "HomeTeam": "England",
     "AwayTeam": "Ghana",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 46,
