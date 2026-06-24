@@ -571,9 +571,9 @@
     "HomeTeam": "Colombia",
     "AwayTeam": "Congo DR",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Colombia"
   },
   {
     "MatchNumber": 51,
