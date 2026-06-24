@@ -559,9 +559,9 @@
     "HomeTeam": "Panama",
     "AwayTeam": "Croatia",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "Croatia"
   },
   {
     "MatchNumber": 48,
