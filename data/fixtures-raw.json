@@ -583,9 +583,9 @@
     "HomeTeam": "Switzerland",
     "AwayTeam": "Canada",
     "Group": "Group B",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Switzerland"
   },
   {
     "MatchNumber": 52,
@@ -595,9 +595,9 @@
     "HomeTeam": "Bosnia and Herzegovina",
     "AwayTeam": "Qatar",
     "Group": "Group B",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 1,
+    "Winner": "Bosnia and Herzegovina"
   },
   {
     "MatchNumber": 49,
