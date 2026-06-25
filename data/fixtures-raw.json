@@ -655,9 +655,9 @@
     "HomeTeam": "Curaçao",
     "AwayTeam": "Côte d'Ivoire",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 2,
+    "Winner": "Côte d'Ivoire"
   },
   {
     "MatchNumber": 56,
@@ -667,9 +667,9 @@
     "HomeTeam": "Ecuador",
     "AwayTeam": "Germany",
     "Group": "Group E",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Ecuador"
   },
   {
     "MatchNumber": 57,
