@@ -607,9 +607,9 @@
     "HomeTeam": "Scotland",
     "AwayTeam": "Brazil",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 3,
+    "Winner": "Brazil"
   },
   {
     "MatchNumber": 50,
@@ -619,9 +619,9 @@
     "HomeTeam": "Morocco",
     "AwayTeam": "Haiti",
     "Group": "Group C",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 2,
+    "Winner": "Morocco"
   },
   {
     "MatchNumber": 53,
@@ -631,9 +631,9 @@
     "HomeTeam": "Czechia",
     "AwayTeam": "Mexico",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 3,
+    "Winner": "Mexico"
   },
   {
     "MatchNumber": 54,
@@ -643,9 +643,9 @@
     "HomeTeam": "South Africa",
     "AwayTeam": "Korea Republic",
     "Group": "Group A",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "South Africa"
   },
   {
     "MatchNumber": 55,
