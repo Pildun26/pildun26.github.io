@@ -703,9 +703,9 @@
     "HomeTeam": "Türkiye",
     "AwayTeam": "USA",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 2,
+    "Winner": "Türkiye"
   },
   {
     "MatchNumber": 60,
@@ -715,9 +715,9 @@
     "HomeTeam": "Paraguay",
     "AwayTeam": "Australia",
     "Group": "Group D",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 61,
