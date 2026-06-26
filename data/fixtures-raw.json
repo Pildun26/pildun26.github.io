@@ -679,9 +679,9 @@
     "HomeTeam": "Japan",
     "AwayTeam": "Sweden",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 58,
@@ -691,9 +691,9 @@
     "HomeTeam": "Tunisia",
     "AwayTeam": "Netherlands",
     "Group": "Group F",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 3,
+    "Winner": "Netherlands"
   },
   {
     "MatchNumber": 59,
