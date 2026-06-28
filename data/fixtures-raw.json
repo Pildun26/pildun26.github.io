@@ -871,9 +871,9 @@
     "HomeTeam": "South Africa",
     "AwayTeam": "Canada",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "Canada"
   },
   {
     "MatchNumber": 76,
@@ -1060,7 +1060,7 @@
     "RoundNumber": 5,
     "DateUtc": "2026-07-04 17:00:00Z",
     "Location": "Houston Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Canada",
     "AwayTeam": "To be announced",
     "Group": null,
     "HomeTeamScore": null,
