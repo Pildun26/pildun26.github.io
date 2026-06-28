@@ -799,9 +799,9 @@
     "HomeTeam": "Panama",
     "AwayTeam": "England",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 2,
+    "Winner": "England"
   },
   {
     "MatchNumber": 68,
@@ -811,9 +811,9 @@
     "HomeTeam": "Croatia",
     "AwayTeam": "Ghana",
     "Group": "Group L",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Croatia"
   },
   {
     "MatchNumber": 71,
@@ -823,9 +823,9 @@
     "HomeTeam": "Colombia",
     "AwayTeam": "Portugal",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 0,
+    "Winner": "Draw"
   },
   {
     "MatchNumber": 72,
@@ -835,9 +835,9 @@
     "HomeTeam": "Congo DR",
     "AwayTeam": "Uzbekistan",
     "Group": "Group K",
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 1,
+    "Winner": "Congo DR"
   },
   {
     "MatchNumber": 69,
