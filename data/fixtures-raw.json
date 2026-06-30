@@ -895,9 +895,9 @@
     "HomeTeam": "Germany",
     "AwayTeam": "Paraguay",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Paraguay"
   },
   {
     "MatchNumber": 75,
@@ -1072,7 +1072,7 @@
     "RoundNumber": 5,
     "DateUtc": "2026-07-04 21:00:00Z",
     "Location": "Philadelphia Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Paraguay",
     "AwayTeam": "To be announced",
     "Group": null,
     "HomeTeamScore": null,
