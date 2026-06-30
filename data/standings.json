@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:10:28.744Z",
+  "generatedAt": "2026-06-30T07:41:22.240Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -1709,9 +1709,9 @@
       "away": "MAR",
       "homeRaw": "Netherlands",
       "awayRaw": "Morocco",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 1,
+      "as": 1,
+      "winner": "MAR"
     },
     {
       "n": 76,
@@ -1931,9 +1931,9 @@
       "venue": "Houston Stadium",
       "group": null,
       "home": "CAN",
-      "away": null,
+      "away": "MAR",
       "homeRaw": "Canada",
-      "awayRaw": "To be announced",
+      "awayRaw": "Morocco",
       "hs": null,
       "as": null,
       "winner": null

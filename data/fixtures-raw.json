@@ -907,9 +907,9 @@
     "HomeTeam": "Netherlands",
     "AwayTeam": "Morocco",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Morocco"
   },
   {
     "MatchNumber": 78,
@@ -1061,7 +1061,7 @@
     "DateUtc": "2026-07-04 17:00:00Z",
     "Location": "Houston Stadium",
     "HomeTeam": "Canada",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Morocco",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
