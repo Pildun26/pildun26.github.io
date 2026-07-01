@@ -943,9 +943,9 @@
     "HomeTeam": "Mexico",
     "AwayTeam": "Ecuador",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 0,
+    "Winner": "Mexico"
   },
   {
     "MatchNumber": 80,
@@ -1096,7 +1096,7 @@
     "RoundNumber": 5,
     "DateUtc": "2026-07-06 00:00:00Z",
     "Location": "Mexico City Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Mexico",
     "AwayTeam": "To be announced",
     "Group": null,
     "HomeTeamScore": null,
