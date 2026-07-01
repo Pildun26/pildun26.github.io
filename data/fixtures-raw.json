@@ -931,9 +931,9 @@
     "HomeTeam": "France",
     "AwayTeam": "Sweden",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 0,
+    "Winner": "France"
   },
   {
     "MatchNumber": 79,
@@ -1073,7 +1073,7 @@
     "DateUtc": "2026-07-04 21:00:00Z",
     "Location": "Philadelphia Stadium",
     "HomeTeam": "Paraguay",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "France",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
