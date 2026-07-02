@@ -967,9 +967,9 @@
     "HomeTeam": "Belgium",
     "AwayTeam": "Senegal",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 2,
+    "Winner": "Belgium"
   },
   {
     "MatchNumber": 81,
@@ -1121,7 +1121,7 @@
     "DateUtc": "2026-07-07 00:00:00Z",
     "Location": "Seattle Stadium",
     "HomeTeam": "To be announced",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Belgium",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,

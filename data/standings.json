@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:00:50.066Z",
+  "generatedAt": "2026-07-02T02:07:11.317Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -1814,9 +1814,9 @@
       "away": "SEN",
       "homeRaw": "Belgium",
       "awayRaw": "Senegal",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 3,
+      "as": 2,
+      "winner": "BEL"
     },
     {
       "n": 83,
@@ -1991,9 +1991,9 @@
       "venue": "Seattle Stadium",
       "group": null,
       "home": null,
-      "away": null,
+      "away": "BEL",
       "homeRaw": "To be announced",
-      "awayRaw": "To be announced",
+      "awayRaw": "Belgium",
       "hs": null,
       "as": null,
       "winner": null
