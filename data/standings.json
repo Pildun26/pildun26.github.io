@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T20:52:34.412Z",
+  "generatedAt": "2026-07-02T22:55:54.253Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -1844,9 +1844,9 @@
       "away": "AUT",
       "homeRaw": "Spain",
       "awayRaw": "Austria",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 3,
+      "as": 0,
+      "winner": "ESP"
     },
     {
       "n": 85,
@@ -1976,9 +1976,9 @@
       "venue": "Dallas Stadium",
       "group": null,
       "home": null,
-      "away": null,
+      "away": "ESP",
       "homeRaw": "To be announced",
-      "awayRaw": "To be announced",
+      "awayRaw": "Spain",
       "hs": null,
       "as": null,
       "winner": null

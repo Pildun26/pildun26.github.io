@@ -991,9 +991,9 @@
     "HomeTeam": "Spain",
     "AwayTeam": "Austria",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 0,
+    "Winner": "Spain"
   },
   {
     "MatchNumber": 83,
@@ -1109,7 +1109,7 @@
     "DateUtc": "2026-07-06 19:00:00Z",
     "Location": "Dallas Stadium",
     "HomeTeam": "To be announced",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Spain",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
