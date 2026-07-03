@@ -1027,9 +1027,9 @@
     "HomeTeam": "Australia",
     "AwayTeam": "Egypt",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 1,
+    "Winner": "Egypt"
   },
   {
     "MatchNumber": 86,
@@ -1133,7 +1133,7 @@
     "DateUtc": "2026-07-07 16:00:00Z",
     "Location": "Atlanta Stadium",
     "HomeTeam": "To be announced",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Egypt",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
