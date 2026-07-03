@@ -1003,9 +1003,9 @@
     "HomeTeam": "Portugal",
     "AwayTeam": "Croatia",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 1,
+    "Winner": "Portugal"
   },
   {
     "MatchNumber": 85,
@@ -1108,7 +1108,7 @@
     "RoundNumber": 5,
     "DateUtc": "2026-07-06 19:00:00Z",
     "Location": "Dallas Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Portugal",
     "AwayTeam": "Spain",
     "Group": null,
     "HomeTeamScore": null,
