@@ -1039,9 +1039,9 @@
     "HomeTeam": "Argentina",
     "AwayTeam": "Cabo Verde",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 3,
+    "AwayTeamScore": 2,
+    "Winner": "Argentina"
   },
   {
     "MatchNumber": 87,
@@ -1132,7 +1132,7 @@
     "RoundNumber": 5,
     "DateUtc": "2026-07-07 16:00:00Z",
     "Location": "Atlanta Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Argentina",
     "AwayTeam": "Egypt",
     "Group": null,
     "HomeTeamScore": null,
