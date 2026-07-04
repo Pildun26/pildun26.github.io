@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T01:51:09.402Z",
+  "generatedAt": "2026-07-04T05:36:23.205Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -1889,9 +1889,9 @@
       "away": "GHA",
       "homeRaw": "Colombia",
       "awayRaw": "Ghana",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 1,
+      "as": 0,
+      "winner": "COL"
     },
     {
       "n": 88,
@@ -2021,9 +2021,9 @@
       "venue": "BC Place Vancouver",
       "group": null,
       "home": "SUI",
-      "away": null,
+      "away": "COL",
       "homeRaw": "Switzerland",
-      "awayRaw": "To be announced",
+      "awayRaw": "Colombia",
       "hs": null,
       "as": null,
       "winner": null

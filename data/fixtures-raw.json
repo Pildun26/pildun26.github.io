@@ -1051,9 +1051,9 @@
     "HomeTeam": "Colombia",
     "AwayTeam": "Ghana",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Colombia"
   },
   {
     "MatchNumber": 90,
@@ -1145,7 +1145,7 @@
     "DateUtc": "2026-07-07 20:00:00Z",
     "Location": "BC Place Vancouver",
     "HomeTeam": "Switzerland",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Colombia",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
