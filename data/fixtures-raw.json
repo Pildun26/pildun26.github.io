@@ -1063,9 +1063,9 @@
     "HomeTeam": "Canada",
     "AwayTeam": "Morocco",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 3,
+    "Winner": "Morocco"
   },
   {
     "MatchNumber": 89,
@@ -1157,7 +1157,7 @@
     "DateUtc": "2026-07-09 20:00:00Z",
     "Location": "Boston Stadium",
     "HomeTeam": "To be announced",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Morocco",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
