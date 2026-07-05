@@ -1075,9 +1075,9 @@
     "HomeTeam": "Paraguay",
     "AwayTeam": "France",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "France"
   },
   {
     "MatchNumber": 91,
@@ -1156,7 +1156,7 @@
     "RoundNumber": 6,
     "DateUtc": "2026-07-09 20:00:00Z",
     "Location": "Boston Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "France",
     "AwayTeam": "Morocco",
     "Group": null,
     "HomeTeamScore": null,
