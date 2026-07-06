@@ -1111,9 +1111,9 @@
     "HomeTeam": "Portugal",
     "AwayTeam": "Spain",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 0,
+    "AwayTeamScore": 1,
+    "Winner": "Spain"
   },
   {
     "MatchNumber": 94,
@@ -1168,7 +1168,7 @@
     "RoundNumber": 6,
     "DateUtc": "2026-07-10 19:00:00Z",
     "Location": "Los Angeles Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "Spain",
     "AwayTeam": "To be announced",
     "Group": null,
     "HomeTeamScore": null,
