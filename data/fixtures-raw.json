@@ -1099,9 +1099,9 @@
     "HomeTeam": "Mexico",
     "AwayTeam": "England",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 2,
+    "AwayTeamScore": 3,
+    "Winner": "England"
   },
   {
     "MatchNumber": 93,
@@ -1181,7 +1181,7 @@
     "DateUtc": "2026-07-11 21:00:00Z",
     "Location": "Miami Stadium",
     "HomeTeam": "Norway",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "England",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,
