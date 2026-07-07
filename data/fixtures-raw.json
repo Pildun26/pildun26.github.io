@@ -1123,9 +1123,9 @@
     "HomeTeam": "USA",
     "AwayTeam": "Belgium",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 4,
+    "Winner": "Belgium"
   },
   {
     "MatchNumber": 95,
@@ -1169,7 +1169,7 @@
     "DateUtc": "2026-07-10 19:00:00Z",
     "Location": "Los Angeles Stadium",
     "HomeTeam": "Spain",
-    "AwayTeam": "To be announced",
+    "AwayTeam": "Belgium",
     "Group": null,
     "HomeTeamScore": null,
     "AwayTeamScore": null,

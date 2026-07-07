@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T01:59:10.233Z",
+  "generatedAt": "2026-07-07T06:08:39.627Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -1994,9 +1994,9 @@
       "away": "BEL",
       "homeRaw": "USA",
       "awayRaw": "Belgium",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 1,
+      "as": 4,
+      "winner": "BEL"
     },
     {
       "n": 95,
@@ -2051,9 +2051,9 @@
       "venue": "Los Angeles Stadium",
       "group": null,
       "home": "ESP",
-      "away": null,
+      "away": "BEL",
       "homeRaw": "Spain",
-      "awayRaw": "To be announced",
+      "awayRaw": "Belgium",
       "hs": null,
       "as": null,
       "winner": null
