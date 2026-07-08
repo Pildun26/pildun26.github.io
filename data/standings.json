@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T22:50:02.839Z",
+  "generatedAt": "2026-07-08T01:28:44.075Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -2024,9 +2024,9 @@
       "away": "COL",
       "homeRaw": "Switzerland",
       "awayRaw": "Colombia",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 0,
+      "as": 0,
+      "winner": "SUI"
     },
     {
       "n": 97,
@@ -2081,9 +2081,9 @@
       "venue": "Kansas City Stadium",
       "group": null,
       "home": "ARG",
-      "away": null,
+      "away": "SUI",
       "homeRaw": "Argentina",
-      "awayRaw": "To be announced",
+      "awayRaw": "Switzerland",
       "hs": null,
       "as": null,
       "winner": null
