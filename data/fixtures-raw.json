@@ -1183,9 +1183,9 @@
     "HomeTeam": "Norway",
     "AwayTeam": "England",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 2,
+    "Winner": "England"
   },
   {
     "MatchNumber": 100,
@@ -1216,7 +1216,7 @@
     "RoundNumber": 7,
     "DateUtc": "2026-07-15 19:00:00Z",
     "Location": "Atlanta Stadium",
-    "HomeTeam": "To be announced",
+    "HomeTeam": "England",
     "AwayTeam": "To be announced",
     "Group": null,
     "HomeTeamScore": null,
