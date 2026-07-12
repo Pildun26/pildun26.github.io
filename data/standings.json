@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T01:29:53.356Z",
+  "generatedAt": "2026-07-12T05:15:14.527Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -585,7 +585,8 @@
     "semifinalists": [
       "FRA",
       "ESP",
-      "ENG"
+      "ENG",
+      "ARG"
     ],
     "champion": null,
     "runnerUp": null,
@@ -2088,9 +2089,9 @@
       "away": "SUI",
       "homeRaw": "Argentina",
       "awayRaw": "Switzerland",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 3,
+      "as": 1,
+      "winner": "ARG"
     },
     {
       "n": 101,
@@ -2115,9 +2116,9 @@
       "venue": "Atlanta Stadium",
       "group": null,
       "home": "ENG",
-      "away": null,
+      "away": "ARG",
       "homeRaw": "England",
-      "awayRaw": "To be announced",
+      "awayRaw": "Argentina",
       "hs": null,
       "as": null,
       "winner": null
