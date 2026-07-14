@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:48:31.680Z",
+  "generatedAt": "2026-07-14T22:44:50.932Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -2104,9 +2104,9 @@
       "away": "ESP",
       "homeRaw": "France",
       "awayRaw": "Spain",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 0,
+      "as": 2,
+      "winner": "ESP"
     },
     {
       "n": 102,
@@ -2130,9 +2130,9 @@
       "date": "2026-07-18T21:00:00Z",
       "venue": "Miami Stadium",
       "group": null,
-      "home": null,
+      "home": "FRA",
       "away": null,
-      "homeRaw": "To be announced",
+      "homeRaw": "France",
       "awayRaw": "To be announced",
       "hs": null,
       "as": null,
@@ -2145,9 +2145,9 @@
       "date": "2026-07-19T19:00:00Z",
       "venue": "New York/New Jersey Stadium",
       "group": null,
-      "home": null,
+      "home": "ESP",
       "away": null,
-      "homeRaw": "To be announced",
+      "homeRaw": "Spain",
       "awayRaw": "To be announced",
       "hs": null,
       "as": null,
