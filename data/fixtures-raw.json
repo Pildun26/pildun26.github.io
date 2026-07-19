@@ -1231,9 +1231,9 @@
     "HomeTeam": "France",
     "AwayTeam": "England",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 4,
+    "AwayTeamScore": 6,
+    "Winner": "England"
   },
   {
     "MatchNumber": 104,

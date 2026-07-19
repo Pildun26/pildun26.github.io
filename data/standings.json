@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T22:37:10.050Z",
+  "generatedAt": "2026-07-19T01:28:00.203Z",
   "kickoff": "2026-06-11T19:00:00Z",
   "phase": "knockout",
   "groupComplete": true,
@@ -590,7 +590,7 @@
     ],
     "champion": null,
     "runnerUp": null,
-    "third": null
+    "third": "ENG"
   },
   "matches": [
     {
@@ -2134,9 +2134,9 @@
       "away": "ENG",
       "homeRaw": "France",
       "awayRaw": "England",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 4,
+      "as": 6,
+      "winner": "ENG"
     },
     {
       "n": 104,
