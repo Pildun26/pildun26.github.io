@@ -1243,8 +1243,8 @@
     "HomeTeam": "Spain",
     "AwayTeam": "Argentina",
     "Group": null,
-    "HomeTeamScore": null,
-    "AwayTeamScore": null,
-    "Winner": ""
+    "HomeTeamScore": 1,
+    "AwayTeamScore": 0,
+    "Winner": "Spain"
   }
 ]

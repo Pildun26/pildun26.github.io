@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T20:36:38.418Z",
+  "generatedAt": "2026-07-19T22:40:06.568Z",
   "kickoff": "2026-06-11T19:00:00Z",
-  "phase": "knockout",
+  "phase": "selesai",
   "groupComplete": true,
   "league": [
     {
@@ -588,8 +588,8 @@
       "ENG",
       "ARG"
     ],
-    "champion": null,
-    "runnerUp": null,
+    "champion": "ESP",
+    "runnerUp": "ARG",
     "third": "ENG"
   },
   "matches": [
@@ -2149,9 +2149,9 @@
       "away": "ARG",
       "homeRaw": "Spain",
       "awayRaw": "Argentina",
-      "hs": null,
-      "as": null,
-      "winner": null
+      "hs": 1,
+      "as": 0,
+      "winner": "ESP"
     }
   ]
 }
